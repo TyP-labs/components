@@ -29,12 +29,6 @@
 }
 
 .button-secondary:hover{
-    background-color: $principal-color;
-    color: $background-color;
-    border: 3px solid $principal-color;
-}
-
-.button-principal:hover{
     background-color: $secondary-color;
-    color: $white;
+    color: $background-color;
 }
