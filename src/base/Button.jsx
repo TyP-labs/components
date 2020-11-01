@@ -1,8 +1,7 @@
 import React from 'react'
 
-
 /**
- * 
+ * Button UI Component 
  * @param {string} value "valor"
  * @param {function} handleClick function
  * @param {boolean} isPrincipal bool
