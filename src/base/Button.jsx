@@ -1,5 +1,12 @@
 import React from 'react'
 
+
+/**
+ * 
+ * @param {string} value "valor"
+ * @param {function} handleClick function
+ * @param {boolean} isPrincipal bool
+ */
 const Button = props => {
 
     const { value, handleClick, isPrincipal } = props
