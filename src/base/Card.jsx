@@ -1,9 +1,12 @@
 import React from 'react'
 
 const Card = props => {
-    return(
-        <div>
 
+    const { children } = props
+
+    return(
+        <div className="card">
+            {children}
         </div>
     )
 }
