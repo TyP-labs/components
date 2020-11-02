@@ -6,6 +6,7 @@
     justify-content: center;
     align-items: flex-start;
     margin: 5px;
+    max-width: 100%;
 }
 
 .textbox__container{
@@ -17,6 +18,7 @@
     justify-content: flex-start;
     align-items: center;
     padding: 0;
+    max-width: 100%;
 }
 
 .textbox__input{
@@ -27,4 +29,5 @@
     padding: 0;
     height: 30px;
     margin-left: 10px;
+    width: 100%;
 }
