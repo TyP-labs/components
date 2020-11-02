@@ -6,6 +6,8 @@ import React from 'react'
  * @param {string} placeholder insert placeholder string
  * @param {boolean} isPassword change between password and text input
  * @param {*} handleChange function to handle onChange event
+ * @param {string} alt image alt
+ * @param {img} img image
  * @return Textbox
  */
 const Textbox = props => {
