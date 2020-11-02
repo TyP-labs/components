@@ -8,12 +8,13 @@ import React from 'react'
  */
 const Textbox = props => {
 
-    const { title, placeholder, isPassword } = props
+    const { title, placeholder, handleChange, isPassword } = props
 
     const properties = {
         type: isPassword ? 'password' : 'text',
         className: 'textbox__input',
         placeholder: placeholder,
+        onChange: e => handleChange(e.target.value)
     }
 
     return(

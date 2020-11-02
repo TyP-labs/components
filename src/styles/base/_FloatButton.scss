@@ -1,0 +1,40 @@
+@import '../variables';
+
+.float-button{
+    height: $height;
+    width: $height;
+    border-radius: $border-min;
+    background-color: $principal-color;
+    cursor: pointer;
+    outline: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    right: 25px;
+    bottom: 25px;
+    transition: all 300ms;
+}
+
+.float-button__plus{
+    font-size: $text-big;
+    color: $white;
+}
+
+.float-button__value{
+    font-size: $text-min;
+    color: $white;
+    display: none;
+    margin: 0 0 0 10px;
+    padding: 0;
+    transition: all 300ms;
+}
+
+.float-button:hover{
+    width: max-content;
+    padding: 0 20px;
+}
+
+.float-button:hover .float-button__value{
+    display: block;
+}
