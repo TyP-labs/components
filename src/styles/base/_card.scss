@@ -4,4 +4,9 @@
     border-radius: $border-max;
     background-color: $white;
     border: 1px solid $border-light-gray-color;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    height: max-content;
+    padding: 50px;
 }
