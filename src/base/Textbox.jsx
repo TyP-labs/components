@@ -1,5 +1,10 @@
 import React from 'react'
 
+/**
+ * Textbox UI Component
+ * @param {string} title
+ * @param {string} placeholder 
+ */
 const Textbox = props => {
 
     const { title, placeholder } = props
