@@ -4,6 +4,8 @@ import React from 'react'
  * Textbox UI Component
  * @param {string} title insert title string
  * @param {string} placeholder insert placeholder string
+ * @param {boolean} isPassword change between password and text input
+ * @param {*} handleChange function to handle onChange event
  * @return Textbox
  */
 const Textbox = props => {

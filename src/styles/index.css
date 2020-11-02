@@ -24,6 +24,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,500;1,100&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,500;1,100&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,500;1,100&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,500;1,100&display=swap");
 .button-principal {
   background-color: #683CE4;
   color: #f5f5f5;
@@ -252,6 +253,70 @@
 
 .float-button:hover .float-button__value {
   display: block;
+}
+
+/*
+----------------------------------------------
+ \ \   / /_ _ _ __(_) __ _| |__ | | ___  ___ 
+  \ \ / / _` | '__| |/ _` | '_ \| |/ _ \/ __|
+   \ V / (_| | |  | | (_| | |_) | |  __/\__ \
+    \_/ \__,_|_|  |_|\__,_|_.__/|_|\___||___/
+----------------------------------------------                                                        
+                            made by TyP labs
+*/
+.code {
+  width: 50px;
+  height: 50px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin: 5px;
+}
+
+.code__input {
+  width: 30px;
+  font-size: 36px;
+  outline: none;
+  border: none;
+  background-color: #00000000;
+  color: #404059;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-left: 5px;
+}
+
+.code__under {
+  height: 2px;
+  width: 50px;
+  border-radius: 8px;
+  background-color: #404059;
+}
+
+.code__input:focus {
+  background-color: #683CE4;
+}
+
+.code-input {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
 }
 
 /*
