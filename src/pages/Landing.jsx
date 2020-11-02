@@ -9,10 +9,10 @@ const Landing = () => {
         <div>
             <Logo/>
             <Button value="Iniciar Sesión"/>
-            <Button value="Iniciar Sesión" isPrincipal={true}/>
+            <Button value="Crear Cuenta" isPrincipal={true}/>
             <Card>
-                <h2>Prueba</h2>
-                <p>prueba</p>
+                <h2 className="text__h2">Prueba</h2>
+                <p className="text__p">prueba</p>
             </Card>
             <Textbox title="hola" placeholder="xd"/>
         </div>

@@ -5,6 +5,7 @@ import LogoViolet from '../assets/logo-icon.png'
 /**
  *  Logo UI Component
  * @param {bool} isWhite change logo color between violet and white
+ * @return App Logo
  */
 const Logo = props => {
 

@@ -4,6 +4,7 @@ import React from 'react'
  * Textbox UI Component
  * @param {string} title insert title string
  * @param {string} placeholder insert placeholder string
+ * @return Textbox
  */
 const Textbox = props => {
 

@@ -1,4 +1,14 @@
 /*
+-----------------------------
+  ___           _           
+ |_ _|_ __   __| | _____  __
+  | || '_ \ / _` |/ _ \ \/ /
+  | || | | | (_| |  __/>  < 
+ |___|_| |_|\__,_|\___/_/\_\
+-----------------------------        
+            made by TyP labs
+*/
+/*
 ----------------------------------------------
  \ \   / /_ _ _ __(_) __ _| |__ | | ___  ___ 
   \ \ / / _` | '__| |/ _` | '_ \| |/ _ \/ __|
@@ -116,6 +126,7 @@
   width: -webkit-max-content;
   width: -moz-max-content;
   width: max-content;
+  margin: 5px;
 }
 
 /*
@@ -141,12 +152,13 @@
   -webkit-box-align: start;
       -ms-flex-align: start;
           align-items: flex-start;
+  margin: 5px;
 }
 
 .textbox__container {
   height: 46px;
   border-radius: 8px;
-  background-color: #fff;
+  background-color: #00000000;
   border: 2px solid #211432;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -162,6 +174,7 @@
 
 .textbox__input {
   outline: none;
+  background-color: #00000000;
   border-radius: 8px;
   border-style: none;
   padding: 0;
@@ -190,71 +203,95 @@
 .text__h1 {
   font-size: 64px;
   color: #211432;
+  margin: 0;
+  padding: 0;
   cursor: default;
 }
 
 .text__h2--black {
   font-size: 36px;
   color: #211432;
+  margin: 0;
+  padding: 0;
   cursor: default;
 }
 
 .text__h2 {
   font-size: 36px;
   color: #404059;
+  margin: 0;
+  padding: 0;
   cursor: default;
 }
 
 .text__h3--black {
   font-size: 24px;
   color: #404059;
+  margin: 0;
+  padding: 0;
   cursor: default;
 }
 
 .text__h3 {
   font-size: 24px;
   color: #91919D;
+  margin: 0;
+  padding: 0;
   cursor: default;
 }
 
 .text__h6--black {
   font-size: 18px;
   color: #404059;
+  margin: 0;
+  padding: 0;
   cursor: default;
 }
 
 .text__h6 {
   font-size: 18px;
   color: #91919D;
+  margin: 0;
+  padding: 0;
   cursor: default;
 }
 
 .text__p {
   font-size: 14px;
   color: #404059;
+  margin: 0;
+  padding: 0;
   cursor: default;
 }
 
 .text__p--black {
   font-size: 14px;
   color: #211432;
+  margin: 0;
+  padding: 0;
   cursor: default;
 }
 
 .text__span {
   font-size: 14px;
   color: #404059;
+  margin: 0;
+  padding: 0;
   cursor: default;
 }
 
 .text__span--black {
   font-size: 14px;
   color: #211432;
+  margin: 0;
+  padding: 0;
   cursor: default;
 }
 
 html {
   font-family: "Roboto", sans-serif;
   background-color: #f5f5f5;
+  margin: 0;
+  padding: 0;
 }
 /*# sourceMappingURL=index.css.map */

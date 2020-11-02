@@ -5,12 +5,13 @@
     flex-direction: column;
     justify-content: center;
     align-items: flex-start;
+    margin: 5px;
 }
 
 .textbox__container{
     height: 46px;
     border-radius: $border-min;
-    background-color: $white;
+    background-color: $transparent;
     border: 2px solid $black;
     display: flex;
     justify-content: flex-start;
@@ -20,6 +21,7 @@
 
 .textbox__input{
     outline: none;
+    background-color: $transparent;
     border-radius: $border-min;
     border-style: none;
     padding: 0;

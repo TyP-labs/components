@@ -5,6 +5,7 @@ import React from 'react'
  * @param {string} value main button value
  * @param {function} handleClick function to handle click event
  * @param {boolean} isPrincipal select between principal and secondary button style
+ * @return Button
  */
 const Button = props => {
 
