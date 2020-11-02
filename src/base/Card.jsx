@@ -2,7 +2,7 @@ import React from 'react'
 
 /**
  * Card base UI 
- * @param {html} children
+ * @param {html} children add jsx to custom this component
  */
 const Card = props => {
 

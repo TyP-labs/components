@@ -2,9 +2,9 @@ import React from 'react'
 
 /**
  * Button UI Component 
- * @param {string} value "valor"
- * @param {function} handleClick function
- * @param {boolean} isPrincipal bool
+ * @param {string} value main button value
+ * @param {function} handleClick function to handle click event
+ * @param {boolean} isPrincipal select between principal and secondary button style
  */
 const Button = props => {
 

@@ -1,0 +1,28 @@
+@import '../variables';
+
+.textbox{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.textbox__container{
+    height: 46px;
+    border-radius: $border-min;
+    background-color: $white;
+    border: 2px solid $black;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 0;
+}
+
+.textbox__input{
+    outline: none;
+    border-radius: $border-min;
+    border-style: none;
+    padding: 0;
+    height: 30px;
+    margin-left: 10px;
+}

@@ -6,11 +6,6 @@
 }
 
 .logo__img{
-    height: 50px;
-    width: 50px;
+    height: $height;
+    width: $height;
 }
-
-.logo__title{
-    color: $dark-gray-color;
-    font-size: $text-mid;
-}   

@@ -2,23 +2,25 @@ import React from 'react'
 
 /**
  * Textbox UI Component
- * @param {string} title
- * @param {string} placeholder 
+ * @param {string} title insert title string
+ * @param {string} placeholder insert placeholder string
  */
 const Textbox = props => {
 
-    const { title, placeholder } = props
+    const { title, placeholder, isPassword } = props
 
     const properties = {
-        type: 'text',
+        type: isPassword ? 'password' : 'text',
         className: 'textbox__input',
         placeholder: placeholder,
     }
 
     return(
         <div className="textbox">
-            <span className="textbox__span">{title}</span>
-            <input {...properties}/>
+            <span className="text__span--black">{title}</span>
+            <div className="textbox__container">
+                <input {...properties}/>
+            </div>
         </div>
     )
 }

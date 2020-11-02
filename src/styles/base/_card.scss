@@ -6,8 +6,9 @@
     border: 1px solid $border-light-gray-color;
     display: flex;
     justify-content: center;
+    flex-direction: column;
     align-items: flex-start;
     height: max-content;
-    padding: 50px;
+    padding: $height;
     width: max-content;
 }
