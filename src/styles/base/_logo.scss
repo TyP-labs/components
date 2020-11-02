@@ -1,0 +1,16 @@
+@import '../variables';
+
+.logo{
+    display: flex;    
+    align-items: center;
+}
+
+.logo__img{
+    height: 50px;
+    width: 50px;
+}
+
+.logo__title{
+    color: $dark-gray-color;
+    font-size: $text-mid;
+}   

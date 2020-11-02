@@ -1,1 +1,10 @@
-@import './base/button'
+@import './base/button';
+@import './base/logo';
+@import './base/card';
+@import './variables';
+
+
+html{
+    font-family: $principal-font, $secondary-font;
+    background-color: $background-color;
+}
