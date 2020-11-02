@@ -10,7 +10,7 @@ import React from 'react'
  */
 const Textbox = props => {
 
-    const { title, placeholder, handleChange, isPassword } = props
+    const { title, placeholder, handleChange, isPassword, alt, img } = props
 
     const properties = {
         type: isPassword ? 'password' : 'text',
@@ -23,6 +23,7 @@ const Textbox = props => {
         <div className="textbox">
             <span className="text__span--black">{title}</span>
             <div className="textbox__container">
+                <img alt={alt} src={img} className="textbox__img" style={{display: img ? 'block' : 'none'}}/>
                 <input {...properties}/>
             </div>
         </div>
