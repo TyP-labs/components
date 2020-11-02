@@ -14,16 +14,30 @@ const Landing = () => {
     return(
         <div>
             <Logo/>
-            <Button value="Iniciar Sesión"/>
-            <Button value="Crear Cuenta" isPrincipal={true} handleClick={alert.bind(this, text)}/>
-            <Card>
-                <h2 className="text__h2">Prueba</h2>
-                <p className="text__p">prueba</p>
-            </Card>
-            <Textbox title="Correo Electrónico *" placeholder="ej: usuario@ejemplo.com" handleChange={setText.bind(this)} alt="xd" img={User}/>
-            <Textbox title="Contraseña *" placeholder="*********" handleChange={setText.bind(this)} alt="xd" img={Secure} isPassword={true}/>
-            <Textbox title="Contraseña *" placeholder="*********" handleChange={setText.bind(this)} />
-            <Textbox title="" placeholder="*********" handleChange={setText.bind(this)} />
+            <div style={{width: '420px', display: 'flex', justifyContent: 'space-between', margin: '10px 0'}}>
+                <div style={{width: '200px'}}>
+                    <Button value="Iniciar Sesión"/>
+                </div>
+                <div style={{width: '200px'}}>
+                    <Button value="Crear Cuenta" isPrincipal={true} handleClick={alert.bind(this, text)}/>
+                </div>
+            </div>
+            
+            <div style={{width: '420px', margin: '10px 0'}}>
+                <Card>
+                    <h2 className="text__h2">Prueba</h2>
+                    <p className="text__p">prueba</p>
+                </Card>
+            </div>
+
+            <div style={{width: '420px', height:'300px', margin: '10px 0', display: 'flex',justifyContent:"space-between", flexDirection: 'column'}}>
+                <Textbox title="Correo Electrónico *" placeholder="ej: usuario@ejemplo.com" handleChange={setText.bind(this)} alt="xd" img={User}/>
+                <Textbox title="Contraseña *" placeholder="*********" handleChange={setText.bind(this)} alt="xd" img={Secure} isPassword={true}/>
+                <Textbox title="Contraseña *" placeholder="*********" handleChange={setText.bind(this)} />
+                <Textbox title="" placeholder="*********" handleChange={setText.bind(this)} />
+            </div>
+
+            
             <FloatButton value="Esto es una prueba"/>
         </div>
     )
