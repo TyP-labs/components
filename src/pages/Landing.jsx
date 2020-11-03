@@ -28,6 +28,15 @@ const Landing = () => {
                     <Button value="Crear Cuenta" isPrincipal={true} handleClick={alert.bind(this, text)}/>
                 </div>
             </div>
+
+            <div style={{width: '420px', display: 'flex', justifyContent: 'space-between', margin: '10px 0'}}>
+                <div style={{width: '200px'}}>
+                    <Button value="Iniciar Sesión" isWhite={true}/>
+                </div>
+                <div style={{width: '200px'}}>
+                    <Button value="Crear Cuenta" isPrincipal={true} isWhite={true} handleClick={alert.bind(this, text)}/>
+                </div>
+            </div>
             
             <div style={{width: '420px', margin: '10px 0'}}>
                 <Card>

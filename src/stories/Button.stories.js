@@ -29,3 +29,19 @@ Secondary.args = {
   value: 'Button',
   handleClick: ()=>{}
 };
+
+export const PrimaryWhite = Template.bind({});
+PrimaryWhite.args = {
+  isPrincipal: true,
+  value: 'Button',
+  isWhite: true,
+  handleClick: ()=>{}
+};
+
+export const SecondaryWhite = Template.bind({});
+SecondaryWhite.args = {
+  isPrincipal: false,
+  value: 'Button',
+  isWhite: true,
+  handleClick: ()=>{}
+};

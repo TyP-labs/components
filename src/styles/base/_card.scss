@@ -10,5 +10,5 @@
     align-items: flex-start;
     height: max-content;
     padding: $height;
-    width: calc(100% + 2px - 50px);
+    width: calc(100% + 2px - $height);
 }

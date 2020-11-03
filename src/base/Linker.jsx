@@ -4,7 +4,7 @@ import React from 'react'
  * Linker UI Base Component
  * @param {string} value title value
  * @param {*} handleClick function to handle click event
- * @param {boolean} isWhite change between white and violet color
+ * @param {boolean} isWhite select between white and violet linker style
  * @return Linker 
  */
 const Linker = props => {
