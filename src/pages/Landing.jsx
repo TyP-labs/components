@@ -8,6 +8,7 @@ import Secure from '../assets/icons8-security-lock-96.png'
 import User from '../assets/icons8-user-96.png'
 import Linker from '../base/Linker'
 import Navbar from '../components/Navbar'
+import Selector from '../base/selector'
 
 const Landing = () => {
 
@@ -57,6 +58,12 @@ const Landing = () => {
 
             
             <FloatButton value="Esto es una prueba"/>
+
+            <div style={{width:"420px", margin:"0 0 10px 0"}}>
+                <Selector value="nuevo elemento"/>
+            </div>
+
+            
         </div>
     )
 }
