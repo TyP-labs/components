@@ -11,7 +11,10 @@ export default {
   }
 };
 
-const Template = args => <div style={{width: '200px'}}>{<Button {...args} />}</div>;
+const Template = args =>
+<div style={{width: '200px'}}>
+  <Button {...args} />
+</div>;
 
 export const Primary = Template.bind({});
 Primary.args = {

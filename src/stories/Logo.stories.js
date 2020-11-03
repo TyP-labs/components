@@ -8,7 +8,13 @@ export default {
 
 const Template = args => <Logo {...args}/>
 
-export const logo = Template.bind({})
-logo.args = {
+export const Primary = Template.bind({})
+Primary.args = {
     isWhite: false
 }
+
+export const Secondary = Template.bind({})
+Secondary.args = {
+    isWhite: true
+}
+
