@@ -26,6 +26,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,500;1,100&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,500;1,100&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,500;1,100&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,500;1,100&display=swap");
 .button-principal {
   background-color: #683CE4;
   color: #f5f5f5;
@@ -122,6 +123,10 @@
   color: #683CE4;
   -webkit-transform: scale(1.025);
           transform: scale(1.025);
+}
+
+.button__container {
+  width: 200px;
 }
 
 /*
@@ -500,7 +505,6 @@
 .linker:hover {
   -webkit-transform: translateY(-5px);
           transform: translateY(-5px);
-  background-color: #E5E5E5;
 }
 
 .linker--white {
@@ -521,10 +525,84 @@
 .linker--white:hover {
   -webkit-transform: translateY(-5px);
           transform: translateY(-5px);
-  background-color: #00000013;
 }
 
-html {
+/*
+----------------------------------------------
+ \ \   / /_ _ _ __(_) __ _| |__ | | ___  ___ 
+  \ \ / / _` | '__| |/ _` | '_ \| |/ _ \/ __|
+   \ V / (_| | |  | | (_| | |_) | |  __/\__ \
+    \_/ \__,_|_|  |_|\__,_|_.__/|_|\___||___/
+----------------------------------------------                                                        
+                            made by TyP labs
+*/
+.navbar {
+  width: 100%;
+  height: 65px;
+  background-color: #fff;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+}
+
+.navbar--white {
+  width: 100%;
+  height: 65px;
+  background-color: #683CE4;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+}
+
+.navbar__container {
+  width: 100%;
+  max-width: 1400px;
+  height: 60px;
+  background-color: #00000000;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.navbar__linkers {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.navbar__buttons {
+  margin-left: 10px;
+}
+
+body {
   font-family: "Roboto", sans-serif;
   background-color: #f5f5f5;
   margin: 0;

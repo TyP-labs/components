@@ -18,9 +18,10 @@
 @import './base/text';
 @import './variables';
 @import './base/linker';
+@import './components/navbar';
 
 
-html{
+body{
     font-family: $principal-font, $secondary-font;
     background-color: $background-color;
     margin: 0;

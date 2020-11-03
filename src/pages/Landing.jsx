@@ -7,6 +7,7 @@ import Textbox from '../base/Textbox'
 import Secure from '../assets/icons8-security-lock-96.png'
 import User from '../assets/icons8-user-96.png'
 import Linker from '../base/Linker'
+import Navbar from '../components/Navbar'
 
 const Landing = () => {
 
@@ -14,6 +15,8 @@ const Landing = () => {
 
     return(
         <div>
+            <Navbar/>
+            <Navbar isWhite={true}/>
             <Logo isWhite={true}/>
             <Logo/>
             <div>
