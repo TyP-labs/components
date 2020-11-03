@@ -6,6 +6,7 @@ import Logo from '../base/Logo'
 import Textbox from '../base/Textbox'
 import Secure from '../assets/icons8-security-lock-96.png'
 import User from '../assets/icons8-user-96.png'
+import Linker from '../base/Linker'
 
 const Landing = () => {
 
@@ -15,6 +16,10 @@ const Landing = () => {
         <div>
             <Logo isWhite={true}/>
             <Logo/>
+            <div>
+                <Linker value="Linker"/>
+                <Linker value="Linker" isWhite={true}/>
+            </div>
             <div style={{width: '420px', display: 'flex', justifyContent: 'space-between', margin: '10px 0'}}>
                 <div style={{width: '200px'}}>
                     <Button value="Iniciar Sesión"/>

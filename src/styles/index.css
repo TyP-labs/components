@@ -25,6 +25,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,500;1,100&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,500;1,100&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,500;1,100&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,500;1,100&display=swap");
 .button-principal {
   background-color: #683CE4;
   color: #f5f5f5;
@@ -43,7 +44,7 @@
   padding: 0;
 }
 
-.button-principal.button-principal:hover {
+.button-principal:hover {
   -webkit-transform: scale(1.025);
           transform: scale(1.025);
   -webkit-box-shadow: 0px 4px 10px 0px rgba(0, 0, 0, 0.25);
@@ -67,7 +68,7 @@
   padding: 0;
 }
 
-.button-secondary.button-secondary:hover {
+.button-secondary:hover {
   background-color: #342844;
   color: #f5f5f5;
   -webkit-transform: scale(1.025);
@@ -423,6 +424,57 @@
 ----------------------------------------------                                                        
                             made by TyP labs
 */
+/*
+----------------------------------------------
+ \ \   / /_ _ _ __(_) __ _| |__ | | ___  ___ 
+  \ \ / / _` | '__| |/ _` | '_ \| |/ _ \/ __|
+   \ V / (_| | |  | | (_| | |_) | |  __/\__ \
+    \_/ \__,_|_|  |_|\__,_|_.__/|_|\___||___/
+----------------------------------------------                                                        
+                            made by TyP labs
+*/
+.linker {
+  background-color: #00000000;
+  color: #683CE4;
+  border-radius: 8px;
+  border-style: none;
+  font-family: "Roboto", sans-serif;
+  font-size: 18px;
+  cursor: pointer;
+  -webkit-transition: all 300ms;
+  transition: all 300ms;
+  outline: none;
+  height: 50px;
+  padding: 0 20px;
+}
+
+.linker:hover {
+  -webkit-transform: translateY(-5px);
+          transform: translateY(-5px);
+  background-color: #E5E5E5;
+}
+
+.linker--white {
+  background-color: #00000000;
+  color: #fff;
+  border-radius: 8px;
+  border-style: none;
+  font-family: "Roboto", sans-serif;
+  font-size: 18px;
+  cursor: pointer;
+  -webkit-transition: all 300ms;
+  transition: all 300ms;
+  outline: none;
+  height: 50px;
+  padding: 0 20px;
+}
+
+.linker--white:hover {
+  -webkit-transform: translateY(-5px);
+          transform: translateY(-5px);
+  background-color: #00000013;
+}
+
 html {
   font-family: "Roboto", sans-serif;
   background-color: #f5f5f5;
