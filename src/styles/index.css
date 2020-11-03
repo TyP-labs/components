@@ -158,8 +158,8 @@
 }
 
 .logo:hover {
-  -webkit-transform: translateY(-5px);
-          transform: translateY(-5px);
+  -webkit-transform: translateY(-3px);
+          transform: translateY(-3px);
 }
 
 /*
@@ -503,8 +503,8 @@
 }
 
 .linker:hover {
-  -webkit-transform: translateY(-5px);
-          transform: translateY(-5px);
+  -webkit-transform: translateY(-3px);
+          transform: translateY(-3px);
 }
 
 .linker--white {
@@ -523,8 +523,8 @@
 }
 
 .linker--white:hover {
-  -webkit-transform: translateY(-5px);
-          transform: translateY(-5px);
+  -webkit-transform: translateY(-3px);
+          transform: translateY(-3px);
 }
 
 /*
