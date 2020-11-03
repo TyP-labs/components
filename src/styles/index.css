@@ -276,8 +276,28 @@
   cursor: default;
 }
 
-.text__h1.text__h1--white {
+.text__h1--white {
+  font-size: 64px;
   color: #fff;
+  margin: 0;
+  padding: 0;
+  cursor: default;
+}
+
+.text__h2--black {
+  font-size: 36px;
+  color: #211432;
+  margin: 0;
+  padding: 0;
+  cursor: default;
+}
+
+.text__h2--white {
+  font-size: 36px;
+  color: #fff;
+  margin: 0;
+  padding: 0;
+  cursor: default;
 }
 
 .text__h2 {
@@ -288,12 +308,20 @@
   cursor: default;
 }
 
-.text__h2.text__h2--black {
-  color: #211432;
+.text__h3--black {
+  font-size: 24px;
+  color: #404059;
+  margin: 0;
+  padding: 0;
+  cursor: default;
 }
 
-.text__h2.text__h2--white {
+.text__h3--white {
+  font-size: 24px;
   color: #fff;
+  margin: 0;
+  padding: 0;
+  cursor: default;
 }
 
 .text__h3 {
@@ -304,12 +332,20 @@
   cursor: default;
 }
 
-.text__h3.text__h3--white {
-  color: #fff;
+.text__h6--black {
+  font-size: 18px;
+  color: #404059;
+  margin: 0;
+  padding: 0;
+  cursor: default;
 }
 
-.text__h3.text__h3--black {
-  color: #404059;
+.text__h6--white {
+  font-size: 18px;
+  color: #fff;
+  margin: 0;
+  padding: 0;
+  cursor: default;
 }
 
 .text__h6 {
@@ -320,14 +356,6 @@
   cursor: default;
 }
 
-.text__h6.text__h6--black {
-  color: #404059;
-}
-
-.text__h6.text__h6--white {
-  color: #fff;
-}
-
 .text__p {
   font-size: 14px;
   color: #404059;
@@ -336,12 +364,20 @@
   cursor: default;
 }
 
-.text__p.text__p--black {
+.text__p--black {
+  font-size: 14px;
   color: #211432;
+  margin: 0;
+  padding: 0;
+  cursor: default;
 }
 
-.text__p.text__p--white {
+.text__p--white {
+  font-size: 14px;
   color: #fff;
+  margin: 0;
+  padding: 0;
+  cursor: default;
 }
 
 .text__span {
@@ -352,12 +388,20 @@
   cursor: default;
 }
 
-.text__span.text__span--black {
+.text__span--black {
+  font-size: 14px;
   color: #211432;
+  margin: 0;
+  padding: 0;
+  cursor: default;
 }
 
-.text__span.text__span--white {
+.text__span--white {
+  font-size: 14px;
   color: #fff;
+  margin: 0;
+  padding: 0;
+  cursor: default;
 }
 
 /*

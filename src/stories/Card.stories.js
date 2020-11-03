@@ -7,7 +7,7 @@ export default {
   component: Card
 };
 
-const Template = children => 
+const Template = () => 
   <div style={{width:'400px'}}> 
     <Card>
       <h3 className="text__h3--black">This is a Card</h3>

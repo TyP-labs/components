@@ -13,7 +13,7 @@ const Landing = () => {
 
     return(
         <div>
-            <Logo/>
+            <Logo isWhite={true}/>
             <div style={{width: '420px', display: 'flex', justifyContent: 'space-between', margin: '10px 0'}}>
                 <div style={{width: '200px'}}>
                     <Button value="Iniciar Sesión"/>
