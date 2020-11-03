@@ -1,18 +1,17 @@
+@import '../variables';
+
 .text__h1{
     font-size: $text-huge;
     color: $black;
     margin: 0;
     padding: 0;
     cursor: default;
+
+    &.text__h1--white{
+        color: $white;
+    }
 }
 
-.text__h2--black{
-    font-size: $text-big;
-    color: $black;
-    margin: 0;
-    padding: 0;
-    cursor: default;
-}
 
 .text__h2{
     font-size: $text-big;
@@ -20,14 +19,14 @@
     margin: 0;
     padding: 0;
     cursor: default;
-}
 
-.text__h3--black{
-    font-size: $text-mid;
-    color: $dark-gray-color;
-    margin: 0;
-    padding: 0;
-    cursor: default;
+    &.text__h2--black{
+        color: $black;
+    }
+
+    &.text__h2--white{
+        color: $white;
+    }
 }
 
 .text__h3{
@@ -36,14 +35,14 @@
     margin: 0;
     padding: 0;
     cursor: default;
-}
 
-.text__h6--black{
-    font-size: $text-min;
-    color: $dark-gray-color;
-    margin: 0;
-    padding: 0;
-    cursor: default;
+    &.text__h3--white{
+        color: $white;
+    }
+
+    &.text__h3--black{
+        color: $dark-gray-color;
+    }
 }
 
 .text__h6{
@@ -52,6 +51,14 @@
     margin: 0;
     padding: 0;
     cursor: default;
+
+    &.text__h6--black{
+        color: $dark-gray-color;
+    }
+
+    &.text__h6--white{
+        color: $white;
+    }
 }
 
 .text__p{
@@ -60,14 +67,14 @@
     margin: 0;
     padding: 0;
     cursor: default;
-}
 
-.text__p--black{
-    font-size: $text-p;
-    color: $black;
-    margin: 0;
-    padding: 0;
-    cursor: default;
+    &.text__p--black{
+        color: $black;
+    }
+
+    &.text__p--white{
+        color: $white;
+    }
 }
 
 .text__span{
@@ -76,12 +83,12 @@
     margin: 0;
     padding: 0;
     cursor: default;
-}
 
-.text__span--black{
-    font-size: $text-p;
-    color: $black;
-    margin: 0;
-    padding: 0;
-    cursor: default;
+    &.text__span--black{
+        color: $black;
+    }
+
+    &.text__span--white{
+        color: $white;
+    }
 }

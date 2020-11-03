@@ -5,7 +5,10 @@ import '../styles/index.css'
 
 export default {
   title: 'Button',
-  component: Button
+  component: Button,
+  action: {
+    handleClick: ['click']
+  }
 };
 
 const Template = args => <div style={{width: '200px'}}>{<Button {...args} />}</div>;

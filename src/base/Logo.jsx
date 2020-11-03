@@ -19,7 +19,7 @@ const Logo = props => {
     return(
         <div className="logo">
             <img {...properties} alt="Kritt Logo"/>
-            <h3 className="text__h3--black">Kritt.</h3>
+            <h3 className={isWhite ? "text__h3--white" : "text__h3--black"}>Kritt.</h3>
         </div>
     )
 }

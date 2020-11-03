@@ -1,3 +1,5 @@
+@import '../variables';
+
 .card{
     border-radius: $border-max;
     background-color: $white;
@@ -8,5 +10,5 @@
     align-items: flex-start;
     height: max-content;
     padding: $height;
-    width: calc(100% + 2px - $height);
+    width: calc(100% + 2px - 50px);
 }
