@@ -8,7 +8,7 @@ export default {
 };
 
 const Template = () => 
-  <div style={{width:'400px'}}> 
+  <div style={{width:'500px'}}> 
     <Card>
       <h3 className="text__h3--black">This is a Card</h3>
       <p className="text__p">Welcome!</p>

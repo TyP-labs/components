@@ -22,3 +22,26 @@
     -moz-box-shadow: 0px 4px 4px 0px rgba(0,0,0,0.25);
     box-shadow: 0px 4px 4px 0px rgba(0,0,0,0.25);
 }
+
+.selector--white{
+    font-family: $principal-font, $secondary-font;
+    font-size: $text-mid;
+    border: 2px solid $white;
+    background-color: $transparent;
+    color:$white;
+    border-radius:$border-min;
+    cursor: pointer;
+    height: 100px;
+    width: 100%;
+    transition: 300ms all;
+    outline: none;
+}
+
+.selector--white:hover{
+    background-color: $principal-color;
+    color: $white;
+    border: 2px solid $principal-color;
+    -webkit-box-shadow: 0px 4px 4px 0px rgba(0,0,0,0.25);
+    -moz-box-shadow: 0px 4px 4px 0px rgba(0,0,0,0.25);
+    box-shadow: 0px 4px 4px 0px rgba(0,0,0,0.25);
+}
