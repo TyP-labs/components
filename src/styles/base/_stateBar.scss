@@ -7,6 +7,7 @@ $round: 20px;
     display: flex;
     justify-content: center;
     align-items: center;
+    transition: all 300ms;
 }
 
 .statebar__circle{
@@ -16,6 +17,7 @@ $round: 20px;
     border: 1px solid $black;
     background-color: $transparent;
     margin: 0 5px;
+    transition: all 300ms;
 }
 
 .statebar__circle--selected{
@@ -25,4 +27,5 @@ $round: 20px;
     border: 1px solid $black;
     background-color: $principal-color;
     margin: 0 5px;
+    transition: all 300ms;
 }
