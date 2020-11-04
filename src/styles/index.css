@@ -17,20 +17,20 @@
 ----------------------------------------------                                                        
                             made by TyP labs
 */
-@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,500;1,100&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,500;1,100&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,500;1,100&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,500;1,100&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,500;1,100&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,500;1,100&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,500;1,100&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,500;1,100&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,500;1,100&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,500;1,100&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,500;1,100&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,500;1,100&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,500;1,100&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,500;1,100&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,500;1,100&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,500;1,100&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,500;1,100&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,500;1,100&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,500;1,100&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,500;1,100&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,500;1,100&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,500;1,100&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,500;1,100&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,500;1,100&display=swap');
 .button-principal {
-  background-color: #683CE4;
+  background-color: #683ce4;
   color: #f5f5f5;
   border-radius: 8px;
   border-style: none;
@@ -43,13 +43,13 @@
   box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
   font-size: 14px;
   outline: none;
-  font-family: "Roboto", sans-serif;
+  font-family: 'Roboto', sans-serif;
   padding: 0;
 }
 
 .button-principal:hover {
   -webkit-transform: scale(1.025);
-          transform: scale(1.025);
+  transform: scale(1.025);
   -webkit-box-shadow: 0px 4px 10px 0px rgba(0, 0, 0, 0.25);
   box-shadow: 0px 4px 10px 0px rgba(0, 0, 0, 0.25);
 }
@@ -67,7 +67,7 @@
   outline: none;
   -webkit-transition: all 300ms;
   transition: all 300ms;
-  font-family: "Roboto", sans-serif;
+  font-family: 'Roboto', sans-serif;
   padding: 0;
 }
 
@@ -75,12 +75,12 @@
   background-color: #342844;
   color: #f5f5f5;
   -webkit-transform: scale(1.025);
-          transform: scale(1.025);
+  transform: scale(1.025);
 }
 
 .button-principal--white {
   background-color: #fff;
-  color: #683CE4;
+  color: #683ce4;
   border-radius: 8px;
   border-style: none;
   cursor: pointer;
@@ -92,13 +92,13 @@
   box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
   font-size: 14px;
   outline: none;
-  font-family: "Roboto", sans-serif;
+  font-family: 'Roboto', sans-serif;
   padding: 0;
 }
 
 .button-principal--white:hover {
   -webkit-transform: scale(1.025);
-          transform: scale(1.025);
+  transform: scale(1.025);
   -webkit-box-shadow: 0px 4px 10px 0px rgba(0, 0, 0, 0.25);
   box-shadow: 0px 4px 10px 0px rgba(0, 0, 0, 0.25);
 }
@@ -116,15 +116,15 @@
   outline: none;
   -webkit-transition: all 300ms;
   transition: all 300ms;
-  font-family: "Roboto", sans-serif;
+  font-family: 'Roboto', sans-serif;
   padding: 0;
 }
 
 .button-secondary--white:hover {
   background-color: #fff;
-  color: #683CE4;
+  color: #683ce4;
   -webkit-transform: scale(1.025);
-          transform: scale(1.025);
+  transform: scale(1.025);
 }
 
 .button__container {
@@ -145,8 +145,8 @@
   display: -ms-flexbox;
   display: flex;
   -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
   -webkit-transition: all 300ms;
   transition: all 300ms;
   width: -webkit-max-content;
@@ -161,7 +161,7 @@
 
 .logo:hover {
   -webkit-transform: translateY(-3px);
-          transform: translateY(-3px);
+  transform: translateY(-3px);
 }
 
 /*
@@ -176,20 +176,20 @@
 .card {
   border-radius: 16px;
   background-color: #fff;
-  border: 1px solid #E5E5E5;
+  border: 1px solid #e5e5e5;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
   -webkit-box-align: start;
-      -ms-flex-align: start;
-          align-items: flex-start;
+  -ms-flex-align: start;
+  align-items: flex-start;
   height: -webkit-max-content;
   height: -moz-max-content;
   height: max-content;
@@ -212,14 +212,14 @@
   display: flex;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
   -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
   -webkit-box-align: start;
-      -ms-flex-align: start;
-          align-items: flex-start;
+  -ms-flex-align: start;
+  align-items: flex-start;
 }
 
 .textbox__container {
@@ -231,11 +231,11 @@
   display: -ms-flexbox;
   display: flex;
   -webkit-box-pack: start;
-      -ms-flex-pack: start;
-          justify-content: flex-start;
+  -ms-flex-pack: start;
+  justify-content: flex-start;
   -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
   padding: 0;
   width: calc(100% - 4px);
 }
@@ -279,18 +279,18 @@
   height: 50px;
   width: 50px;
   border-radius: 8px;
-  background-color: #683CE4;
+  background-color: #683ce4;
   cursor: pointer;
   outline: none;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
   -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
   position: fixed;
   right: 25px;
   bottom: 25px;
@@ -393,7 +393,7 @@
 
 .text__h3 {
   font-size: 24px;
-  color: #91919D;
+  color: #91919d;
   margin: 0;
   padding: 0;
   cursor: default;
@@ -417,7 +417,7 @@
 
 .text__h6 {
   font-size: 18px;
-  color: #91919D;
+  color: #91919d;
   margin: 0;
   padding: 0;
   cursor: default;
@@ -491,10 +491,10 @@
 */
 .linker {
   background-color: #00000000;
-  color: #683CE4;
+  color: #683ce4;
   border-radius: 8px;
   border-style: none;
-  font-family: "Roboto", sans-serif;
+  font-family: 'Roboto', sans-serif;
   font-size: 18px;
   cursor: pointer;
   -webkit-transition: all 300ms;
@@ -506,7 +506,7 @@
 
 .linker:hover {
   -webkit-transform: translateY(-3px);
-          transform: translateY(-3px);
+  transform: translateY(-3px);
 }
 
 .linker--white {
@@ -514,7 +514,7 @@
   color: #fff;
   border-radius: 8px;
   border-style: none;
-  font-family: "Roboto", sans-serif;
+  font-family: 'Roboto', sans-serif;
   font-size: 18px;
   cursor: pointer;
   -webkit-transition: all 300ms;
@@ -526,7 +526,7 @@
 
 .linker--white:hover {
   -webkit-transform: translateY(-3px);
-          transform: translateY(-3px);
+  transform: translateY(-3px);
 }
 
 /*
@@ -546,11 +546,11 @@
   display: -ms-flexbox;
   display: flex;
   -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
   -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
   -webkit-box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
   box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
 }
@@ -558,16 +558,16 @@
 .navbar--white {
   width: 100%;
   height: 65px;
-  background-color: #683CE4;
+  background-color: #683ce4;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
   -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
   -webkit-box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
   box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
 }
@@ -581,11 +581,11 @@
   display: -ms-flexbox;
   display: flex;
   -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
   -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
 }
 
 .navbar__linkers {
@@ -593,11 +593,11 @@
   display: -ms-flexbox;
   display: flex;
   -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
   -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
 }
 
 .navbar__buttons {
@@ -614,7 +614,7 @@
                             made by TyP labs
 */
 .selector {
-  font-family: "Roboto", sans-serif;
+  font-family: 'Roboto', sans-serif;
   font-size: 24px;
   border: 2px solid #404059;
   background-color: #00000000;
@@ -629,15 +629,15 @@
 }
 
 .selector:hover {
-  background-color: #683CE4;
+  background-color: #683ce4;
   color: #fff;
-  border: 2px solid #683CE4;
+  border: 2px solid #683ce4;
   -webkit-box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
   box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
 }
 
 .selector--white {
-  font-family: "Roboto", sans-serif;
+  font-family: 'Roboto', sans-serif;
   font-size: 24px;
   border: 2px solid #fff;
   background-color: #00000000;
@@ -652,9 +652,9 @@
 }
 
 .selector--white:hover {
-  background-color: #683CE4;
+  background-color: #683ce4;
   color: #fff;
-  border: 2px solid #683CE4;
+  border: 2px solid #683ce4;
   -webkit-box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
   box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
 }
@@ -678,11 +678,11 @@
   display: -ms-flexbox;
   display: flex;
   -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
   -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
 }
 
 .statebar__circle {
@@ -699,12 +699,12 @@
   width: 20px;
   border-radius: 20px;
   border: 1px solid #211432;
-  background-color: #683CE4;
+  background-color: #683ce4;
   margin: 0 5px;
 }
 
 body {
-  font-family: "Roboto", sans-serif;
+  font-family: 'Roboto', sans-serif;
   background-color: #f5f5f5;
   margin: 0;
   padding: 0;

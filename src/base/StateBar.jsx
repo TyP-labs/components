@@ -1,39 +1,40 @@
-import React, {useEffect, useState} from 'react'
+import React, { useEffect, useState } from 'react';
 
-const Circle = props => {
-    const { isSelected, key } = props
+const Circle = (props) => {
+  const { isSelected, key } = props;
 
-    return <div className={isSelected ? 'statebar__circle--selected' : 'statebar__circle'} key={key}></div>
-}
+  return (
+    <div
+      className={isSelected ? 'statebar__circle--selected' : 'statebar__circle'}
+      key={key}
+    ></div>
+  );
+};
 
 /**
  * Statebar UI Component
  * @param {integer} length circles length
- * @param {integer} actual actual length 
+ * @param {integer} actual actual length
  * @return Statebar
  */
-const StateBar = props => {
+const StateBar = (props) => {
+  const { length, actual } = props;
+  const items = [];
 
-    const { length, actual } = props
-    const items = []
+  for (let i = 1; i <= props.length; i++) {
+    let isSelected;
+    i === actual ? (isSelected = true) : (isSelected = false);
 
-    for(let i=1; i<=props.length; i++){
-        let isSelected
-        i===actual ? 
-        isSelected = true
-        :
-        isSelected = false
-        
-        items.push({isSelected})
-    }
+    items.push({ isSelected });
+  }
 
-    return(
-        <div className="state-bar">
-            {items.map((value, key)=>{
-                return <Circle {...value} key={key}/>
-            })}
-        </div>
-    )
-}
+  return (
+    <div className="state-bar">
+      {items.map((value, key) => {
+        return <Circle {...value} key={key} />;
+      })}
+    </div>
+  );
+};
 
-export default StateBar
+export default StateBar;

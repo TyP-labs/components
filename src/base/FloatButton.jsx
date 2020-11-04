@@ -7,14 +7,14 @@ import React from 'react';
  * @return Float Button
  */
 const FloatButton = (props) => {
-    const { handleClick, value } = props;
+  const { handleClick, value } = props;
 
-    return (
-        <div className="float-button" onClick={handleClick}>
-            <span className="float-button__plus">+</span>
-            <span className="float-button__value">{value}</span>
-        </div>
-    );
+  return (
+    <div className="float-button" onClick={handleClick}>
+      <span className="float-button__plus">+</span>
+      <span className="float-button__value">{value}</span>
+    </div>
+  );
 };
 
 export default FloatButton;

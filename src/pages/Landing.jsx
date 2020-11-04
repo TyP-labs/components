@@ -13,7 +13,7 @@ import StateBar from '../base/StateBar';
 
 const Landing = () => {
   const [text, setText] = useState('');
-  let [value,setValue] = useState(0);
+  let [value, setValue] = useState(0);
 
   return (
     <div>
@@ -116,9 +116,9 @@ const Landing = () => {
         <Selector value="nuevo elemento" />
       </div>
 
-      <div style={{margin: "10px 0"}}>
-        <Button value="continue" handleClick={()=> setValue(value+=1)}/>
-        <StateBar length={3} actual={value}/>
+      <div style={{ margin: '10px 0' }}>
+        <Button value="continue" handleClick={() => setValue((value += 1))} />
+        <StateBar length={3} actual={value} />
       </div>
     </div>
   );
