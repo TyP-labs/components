@@ -9,9 +9,11 @@ import User from '../assets/icons8-user-96.png';
 import Linker from '../base/Linker';
 import Navbar from '../components/Navbar';
 import Selector from '../base/Selector';
+import StateBar from '../base/StateBar';
 
 const Landing = () => {
   const [text, setText] = useState('');
+  let [value,setValue] = useState(0);
 
   return (
     <div>
@@ -112,6 +114,11 @@ const Landing = () => {
 
       <div style={{ width: '420px', margin: '0 0 10px 0' }}>
         <Selector value="nuevo elemento" />
+      </div>
+
+      <div style={{margin: "10px 0"}}>
+        <Button value="continue" handleClick={()=> setValue(value+=1)}/>
+        <StateBar length={3} actual={value}/>
       </div>
     </div>
   );

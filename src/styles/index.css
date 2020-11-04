@@ -28,6 +28,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,500;1,100&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,500;1,100&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,500;1,100&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,500;1,100&display=swap");
 .button-principal {
   background-color: #683CE4;
   color: #f5f5f5;
@@ -656,6 +657,50 @@
   border: 2px solid #683CE4;
   -webkit-box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
   box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+}
+
+/*
+----------------------------------------------
+ \ \   / /_ _ _ __(_) __ _| |__ | | ___  ___ 
+  \ \ / / _` | '__| |/ _` | '_ \| |/ _ \/ __|
+   \ V / (_| | |  | | (_| | |_) | |  __/\__ \
+    \_/ \__,_|_|  |_|\__,_|_.__/|_|\___||___/
+----------------------------------------------                                                        
+                            made by TyP labs
+*/
+.state-bar {
+  height: 50px;
+  width: -webkit-max-content;
+  width: -moz-max-content;
+  width: max-content;
+  padding: 0 10px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.statebar__circle {
+  height: 20px;
+  width: 20px;
+  border-radius: 20px;
+  border: 1px solid #211432;
+  background-color: #00000000;
+  margin: 0 5px;
+}
+
+.statebar__circle--selected {
+  height: 20px;
+  width: 20px;
+  border-radius: 20px;
+  border: 1px solid #211432;
+  background-color: #683CE4;
+  margin: 0 5px;
 }
 
 body {
