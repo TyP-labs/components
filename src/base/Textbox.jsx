@@ -1,4 +1,4 @@
-import React from 'react'
+import React from 'react';
 
 /**
  * Textbox UI Component
@@ -10,26 +10,30 @@ import React from 'react'
  * @param {img} img image
  * @return Textbox
  */
-const Textbox = props => {
+const Textbox = (props) => {
+  const { title, placeholder, handleChange, isPassword, alt, img } = props;
 
-    const { title, placeholder, handleChange, isPassword, alt, img } = props
+  const properties = {
+    type: isPassword ? 'password' : 'text',
+    className: 'textbox__input',
+    placeholder: placeholder,
+    onChange: (e) => handleChange(e.target.value),
+  };
 
-    const properties = {
-        type: isPassword ? 'password' : 'text',
-        className: 'textbox__input',
-        placeholder: placeholder,
-        onChange: e => handleChange(e.target.value)
-    }
+  return (
+    <div className="textbox">
+      <span className="text__span--black">{title}</span>
+      <div className="textbox__container">
+        <img
+          alt={alt}
+          src={img}
+          className="textbox__img"
+          style={{ display: img ? 'block' : 'none' }}
+        />
+        <input {...properties} />
+      </div>
+    </div>
+  );
+};
 
-    return(
-        <div className="textbox">
-            <span className="text__span--black">{title}</span>
-            <div className="textbox__container">
-                <img alt={alt} src={img} className="textbox__img" style={{display: img ? 'block' : 'none'}}/>
-                <input {...properties}/>
-            </div>
-        </div>
-    )
-}
-
-export default Textbox
+export default Textbox;

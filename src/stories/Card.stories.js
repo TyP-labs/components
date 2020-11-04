@@ -1,18 +1,19 @@
-import React from 'react'
-import Card from '../base/Card'
-import '../styles/index.css'
+import React from 'react';
+import Card from '../base/Card';
+import '../styles/index.css';
 
 export default {
   title: 'Card',
-  component: Card
+  component: Card,
 };
 
-const Template = () => 
-  <div style={{width:'500px'}}> 
+const Template = () => (
+  <div style={{ width: '500px' }}>
     <Card>
       <h3 className="text__h3--black">This is a Card</h3>
       <p className="text__p">Welcome!</p>
-    </Card> 
+    </Card>
   </div>
+);
 
-export const Primary = Template.bind({})
+export const Primary = Template.bind({});

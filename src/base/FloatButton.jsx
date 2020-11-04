@@ -1,5 +1,4 @@
-import React from 'react'
-
+import React from 'react';
 
 /**
  * Float Button
@@ -7,15 +6,15 @@ import React from 'react'
  * @param {*} value value to show on hover event
  * @return Float Button
  */
-const FloatButton = props =>{
-    const {handleClick, value} = props
+const FloatButton = (props) => {
+  const { handleClick, value } = props;
 
-    return(
-        <div className="float-button" onClick={handleClick}>
-            <span className="float-button__plus">+</span>
-            <span className="float-button__value">{value}</span>
-        </div>
-    )
-}
+  return (
+    <div className="float-button" onClick={handleClick}>
+      <span className="float-button__plus">+</span>
+      <span className="float-button__value">{value}</span>
+    </div>
+  );
+};
 
-export default FloatButton
+export default FloatButton;

@@ -1,4 +1,4 @@
-import React from 'react'
+import React from 'react';
 
 /**
  * Selector UI Base Component
@@ -7,20 +7,17 @@ import React from 'react'
  * @param {boolean} isWhite select between normal and white style
  * @return Selector
  */
-const Selector=(props)=>{ 
+const Selector = (props) => {
+  const { value, isWhite, handleClick } = props;
 
-    const { value, isWhite, handleClick } = props
+  const propieties = {
+    value: value,
+    type: 'button',
+    className: isWhite ? 'selector--white' : 'selector',
+    onClick: handleClick,
+  };
 
-    const propieties={
-        value:value, 
-        type:'button',
-        className: isWhite ? 'selector--white' : 'selector',
-        onClick: handleClick
-    }
+  return <input {...propieties} />;
+};
 
-    return(
-        <input {...propieties}/>
-    )
-}
-
-export default Selector
+export default Selector;
