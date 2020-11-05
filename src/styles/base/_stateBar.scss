@@ -1,5 +1,33 @@
 @import '../variables';
 $round: 20px;
+<<<<<<< HEAD
+.state-bar {
+  height: $height;
+  width: max-content;
+  padding: 0 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.statebar__circle {
+  height: $round;
+  width: $round;
+  border-radius: $round;
+  border: 1px solid $black;
+  background-color: $transparent;
+  margin: 0 5px;
+}
+
+.statebar__circle--selected {
+  height: $round;
+  width: $round;
+  border-radius: $round;
+  border: 1px solid $black;
+  background-color: $principal-color;
+  margin: 0 5px;
+}
+=======
 .state-bar{
     height: $height;
     width: max-content;
@@ -29,3 +57,4 @@ $round: 20px;
     margin: 0 5px;
     transition: all 300ms;
 }
+>>>>>>> ab3a31fa4bd3d9c378c39acf2319034c5079fe90
