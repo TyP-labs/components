@@ -15,7 +15,7 @@ import Footer from '../components/Footer.jsx';
 
 const Landing = () => {
   const [text, setText] = useState('');
-  let [value, setValue] = useState(0);
+  let [value, setValue] = useState(1);
 
   return (
     <div>
@@ -118,10 +118,15 @@ const Landing = () => {
         <Selector value="nuevo elemento" />
       </div>
 
+<<<<<<< HEAD
       <div style={{ margin: '10px 0' }}>
         <div style={{ width: '420px', margin: '0 0 10px 0' }}>
           <Button value="continue" handleClick={() => setValue((value += 1))} />
         </div>
+=======
+      <div style={{ margin: '10px 0', width: '420px' }}>
+        <Button value="continue" handleClick={() => setValue((value += 1))} />
+>>>>>>> ab3a31fa4bd3d9c378c39acf2319034c5079fe90
         <StateBar length={3} actual={value} />
       </div>
       <div>
