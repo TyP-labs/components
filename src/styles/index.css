@@ -1,0 +1,776 @@
+/*
+-----------------------------
+  ___           _           
+ |_ _|_ __   __| | _____  __
+  | || '_ \ / _` |/ _ \ \/ /
+  | || | | | (_| |  __/>  < 
+ |___|_| |_|\__,_|\___/_/\_\
+-----------------------------        
+            made by TyP labs
+*/
+/*
+----------------------------------------------
+ \ \   / /_ _ _ __(_) __ _| |__ | | ___  ___ 
+  \ \ / / _` | '__| |/ _` | '_ \| |/ _ \/ __|
+   \ V / (_| | |  | | (_| | |_) | |  __/\__ \
+    \_/ \__,_|_|  |_|\__,_|_.__/|_|\___||___/
+----------------------------------------------                                                        
+                            made by TyP labs
+*/
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,500;1,100&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,500;1,100&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,500;1,100&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,500;1,100&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,500;1,100&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,500;1,100&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,500;1,100&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,500;1,100&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,500;1,100&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,500;1,100&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,500;1,100&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,500;1,100&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,500;1,100&display=swap');
+.button-principal {
+  background-color: #683ce4;
+  color: #2b2935;
+  border-radius: 8px;
+  border-style: none;
+  cursor: pointer;
+  height: 50px;
+  width: 100%;
+  -webkit-transition: all 300ms;
+  transition: all 300ms;
+  -webkit-box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+  font-size: 14px;
+  outline: none;
+  font-family: 'Roboto', sans-serif;
+  padding: 0;
+}
+
+.button-principal:hover {
+  -webkit-transform: scale(1.025);
+  transform: scale(1.025);
+  -webkit-box-shadow: 0px 4px 10px 0px rgba(0, 0, 0, 0.25);
+  box-shadow: 0px 4px 10px 0px rgba(0, 0, 0, 0.25);
+}
+
+.button-secondary {
+  border-style: none;
+  border: 3px solid #342844;
+  height: 50px;
+  width: 100%;
+  color: #342844;
+  border-radius: 8px;
+  background-color: #00000000;
+  cursor: pointer;
+  font-size: 14px;
+  outline: none;
+  -webkit-transition: all 300ms;
+  transition: all 300ms;
+  font-family: 'Roboto', sans-serif;
+  padding: 0;
+}
+
+.button-secondary:hover {
+  background-color: #342844;
+  color: #2b2935;
+  -webkit-transform: scale(1.025);
+  transform: scale(1.025);
+}
+
+.button-principal--white {
+  background-color: #fff;
+  color: #683ce4;
+  border-radius: 8px;
+  border-style: none;
+  cursor: pointer;
+  height: 50px;
+  width: 100%;
+  -webkit-transition: all 300ms;
+  transition: all 300ms;
+  -webkit-box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+  font-size: 14px;
+  outline: none;
+  font-family: 'Roboto', sans-serif;
+  padding: 0;
+}
+
+.button-principal--white:hover {
+  -webkit-transform: scale(1.025);
+  transform: scale(1.025);
+  -webkit-box-shadow: 0px 4px 10px 0px rgba(0, 0, 0, 0.25);
+  box-shadow: 0px 4px 10px 0px rgba(0, 0, 0, 0.25);
+}
+
+.button-secondary--white {
+  border-style: none;
+  border: 3px solid #fff;
+  height: 50px;
+  width: 100%;
+  color: #fff;
+  border-radius: 8px;
+  background-color: #00000000;
+  cursor: pointer;
+  font-size: 14px;
+  outline: none;
+  -webkit-transition: all 300ms;
+  transition: all 300ms;
+  font-family: 'Roboto', sans-serif;
+  padding: 0;
+}
+
+.button-secondary--white:hover {
+  background-color: #fff;
+  color: #683ce4;
+  -webkit-transform: scale(1.025);
+  transform: scale(1.025);
+}
+
+.button__container {
+  width: 200px;
+}
+
+/*
+----------------------------------------------
+ \ \   / /_ _ _ __(_) __ _| |__ | | ___  ___ 
+  \ \ / / _` | '__| |/ _` | '_ \| |/ _ \/ __|
+   \ V / (_| | |  | | (_| | |_) | |  __/\__ \
+    \_/ \__,_|_|  |_|\__,_|_.__/|_|\___||___/
+----------------------------------------------                                                        
+                            made by TyP labs
+*/
+.logo {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-transition: all 300ms;
+  transition: all 300ms;
+  width: -webkit-max-content;
+  width: -moz-max-content;
+  width: max-content;
+}
+
+.logo__img {
+  height: 50px;
+  width: 50px;
+}
+
+.logo:hover {
+  -webkit-transform: translateY(-3px);
+  transform: translateY(-3px);
+}
+
+/*
+----------------------------------------------
+ \ \   / /_ _ _ __(_) __ _| |__ | | ___  ___ 
+  \ \ / / _` | '__| |/ _` | '_ \| |/ _ \/ __|
+   \ V / (_| | |  | | (_| | |_) | |  __/\__ \
+    \_/ \__,_|_|  |_|\__,_|_.__/|_|\___||___/
+----------------------------------------------                                                        
+                            made by TyP labs
+*/
+.card {
+  border-radius: 16px;
+  background-color: #fff;
+  border: 1px solid #e5e5e5;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-align: start;
+  -ms-flex-align: start;
+  align-items: flex-start;
+  height: -webkit-max-content;
+  height: -moz-max-content;
+  height: max-content;
+  padding: 50px;
+  width: calc(100% + 2px - $height);
+}
+
+/*
+----------------------------------------------
+ \ \   / /_ _ _ __(_) __ _| |__ | | ___  ___ 
+  \ \ / / _` | '__| |/ _` | '_ \| |/ _ \/ __|
+   \ V / (_| | |  | | (_| | |_) | |  __/\__ \
+    \_/ \__,_|_|  |_|\__,_|_.__/|_|\___||___/
+----------------------------------------------                                                        
+                            made by TyP labs
+*/
+.textbox {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: start;
+  -ms-flex-align: start;
+  align-items: flex-start;
+}
+
+.textbox__container {
+  height: 46px;
+  border-radius: 8px;
+  background-color: #00000000;
+  border: 2px solid #404059;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: start;
+  -ms-flex-pack: start;
+  justify-content: flex-start;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  padding: 0;
+  width: calc(100% - 4px);
+  -webkit-transition: all 300ms;
+  transition: all 300ms;
+}
+
+.textbox__input {
+  outline: none;
+  background-color: #00000000;
+  border-radius: 8px;
+  border-style: none;
+  color: #211432;
+  padding: 0;
+  height: 42px;
+  margin: 0 0 0 10px;
+  width: calc(100% - 30px);
+  -webkit-transition: all 300ms;
+  transition: all 300ms;
+}
+
+.textbox__img {
+  height: 25px;
+  width: 25px;
+  margin-left: 10px;
+}
+
+.textbox__input:focus {
+  -webkit-transform: translateY(-2px);
+  transform: translateY(-2px);
+}
+
+.textbox__input::-webkit-input-placeholder {
+  color: #91919d;
+}
+
+.textbox__input:-ms-input-placeholder {
+  color: #91919d;
+}
+
+.textbox__input::-ms-input-placeholder {
+  color: #91919d;
+}
+
+.textbox__input::placeholder {
+  color: #91919d;
+}
+
+/*
+----------------------------------------------
+ \ \   / /_ _ _ __(_) __ _| |__ | | ___  ___ 
+  \ \ / / _` | '__| |/ _` | '_ \| |/ _ \/ __|
+   \ V / (_| | |  | | (_| | |_) | |  __/\__ \
+    \_/ \__,_|_|  |_|\__,_|_.__/|_|\___||___/
+----------------------------------------------                                                        
+                            made by TyP labs
+*/
+/*
+----------------------------------------------
+ \ \   / /_ _ _ __(_) __ _| |__ | | ___  ___ 
+  \ \ / / _` | '__| |/ _` | '_ \| |/ _ \/ __|
+   \ V / (_| | |  | | (_| | |_) | |  __/\__ \
+    \_/ \__,_|_|  |_|\__,_|_.__/|_|\___||___/
+----------------------------------------------                                                        
+                            made by TyP labs
+*/
+.float-button {
+  height: 50px;
+  width: 50px;
+  border-radius: 8px;
+  background-color: #683ce4;
+  cursor: pointer;
+  outline: none;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  position: fixed;
+  right: 25px;
+  bottom: 25px;
+  -webkit-transition: all 300ms;
+  transition: all 300ms;
+  -webkit-box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+}
+
+.float-button__plus {
+  font-size: 36px;
+  color: #fff;
+}
+
+.float-button__value {
+  font-size: 18px;
+  color: #fff;
+  display: none;
+  margin: 0 0 0 10px;
+  padding: 0;
+  -webkit-transition: all 300ms;
+  transition: all 300ms;
+}
+
+.float-button:hover {
+  width: -webkit-max-content;
+  width: -moz-max-content;
+  width: max-content;
+  padding: 0 20px;
+}
+
+.float-button:hover .float-button__value {
+  display: block;
+}
+
+/*
+----------------------------------------------
+ \ \   / /_ _ _ __(_) __ _| |__ | | ___  ___ 
+  \ \ / / _` | '__| |/ _` | '_ \| |/ _ \/ __|
+   \ V / (_| | |  | | (_| | |_) | |  __/\__ \
+    \_/ \__,_|_|  |_|\__,_|_.__/|_|\___||___/
+----------------------------------------------                                                        
+                            made by TyP labs
+*/
+.text__h1 {
+  font-size: 64px;
+  color: #211432;
+  margin: 0;
+  padding: 0;
+  cursor: default;
+}
+
+.text__h1--white {
+  font-size: 64px;
+  color: #fff;
+  margin: 0;
+  padding: 0;
+  cursor: default;
+}
+
+.text__h2--black {
+  font-size: 36px;
+  color: #211432;
+  margin: 0;
+  padding: 0;
+  cursor: default;
+}
+
+.text__h2--white {
+  font-size: 36px;
+  color: #fff;
+  margin: 0;
+  padding: 0;
+  cursor: default;
+}
+
+.text__h2 {
+  font-size: 36px;
+  color: #404059;
+  margin: 0;
+  padding: 0;
+  cursor: default;
+}
+
+.text__h3--black {
+  font-size: 24px;
+  color: #404059;
+  margin: 0;
+  padding: 0;
+  cursor: default;
+}
+
+.text__h3--white {
+  font-size: 24px;
+  color: #fff;
+  margin: 0;
+  padding: 0;
+  cursor: default;
+}
+
+.text__h3 {
+  font-size: 24px;
+  color: #91919d;
+  margin: 0;
+  padding: 0;
+  cursor: default;
+}
+
+.text__h6--black {
+  font-size: 18px;
+  color: #404059;
+  margin: 0;
+  padding: 0;
+  cursor: default;
+}
+
+.text__h6--white {
+  font-size: 18px;
+  color: #fff;
+  margin: 0;
+  padding: 0;
+  cursor: default;
+}
+
+.text__h6 {
+  font-size: 18px;
+  color: #91919d;
+  margin: 0;
+  padding: 0;
+  cursor: default;
+}
+
+.text__p {
+  font-size: 14px;
+  color: #404059;
+  margin: 0;
+  padding: 0;
+  cursor: default;
+}
+
+.text__p--black {
+  font-size: 14px;
+  color: #211432;
+  margin: 0;
+  padding: 0;
+  cursor: default;
+}
+
+.text__p--white {
+  font-size: 14px;
+  color: #fff;
+  margin: 0;
+  padding: 0;
+  cursor: default;
+}
+
+.text__span {
+  font-size: 14px;
+  color: #404059;
+  margin: 0;
+  padding: 0;
+  cursor: default;
+}
+
+.text__span--black {
+  font-size: 14px;
+  color: #211432;
+  margin: 0;
+  padding: 0;
+  cursor: default;
+}
+
+.text__span--white {
+  font-size: 14px;
+  color: #fff;
+  margin: 0;
+  padding: 0;
+  cursor: default;
+}
+
+/*
+----------------------------------------------
+ \ \   / /_ _ _ __(_) __ _| |__ | | ___  ___ 
+  \ \ / / _` | '__| |/ _` | '_ \| |/ _ \/ __|
+   \ V / (_| | |  | | (_| | |_) | |  __/\__ \
+    \_/ \__,_|_|  |_|\__,_|_.__/|_|\___||___/
+----------------------------------------------                                                        
+                            made by TyP labs
+*/
+/*
+----------------------------------------------
+ \ \   / /_ _ _ __(_) __ _| |__ | | ___  ___ 
+  \ \ / / _` | '__| |/ _` | '_ \| |/ _ \/ __|
+   \ V / (_| | |  | | (_| | |_) | |  __/\__ \
+    \_/ \__,_|_|  |_|\__,_|_.__/|_|\___||___/
+----------------------------------------------                                                        
+                            made by TyP labs
+*/
+.linker {
+  background-color: #00000000;
+  color: #683ce4;
+  border-radius: 8px;
+  border-style: none;
+  font-family: 'Roboto', sans-serif;
+  font-size: 18px;
+  cursor: pointer;
+  -webkit-transition: all 300ms;
+  transition: all 300ms;
+  outline: none;
+  height: 50px;
+  padding: 0 20px;
+}
+
+.linker:hover {
+  -webkit-transform: translateY(-3px);
+  transform: translateY(-3px);
+}
+
+.linker--white {
+  background-color: #00000000;
+  color: #fff;
+  border-radius: 8px;
+  border-style: none;
+  font-family: 'Roboto', sans-serif;
+  font-size: 18px;
+  cursor: pointer;
+  -webkit-transition: all 300ms;
+  transition: all 300ms;
+  outline: none;
+  height: 50px;
+  padding: 0 20px;
+}
+
+.linker--white:hover {
+  -webkit-transform: translateY(-3px);
+  transform: translateY(-3px);
+}
+
+/*
+----------------------------------------------
+ \ \   / /_ _ _ __(_) __ _| |__ | | ___  ___ 
+  \ \ / / _` | '__| |/ _` | '_ \| |/ _ \/ __|
+   \ V / (_| | |  | | (_| | |_) | |  __/\__ \
+    \_/ \__,_|_|  |_|\__,_|_.__/|_|\___||___/
+----------------------------------------------                                                        
+                            made by TyP labs
+*/
+.navbar {
+  width: 100%;
+  height: 65px;
+  background-color: #fff;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+}
+
+.navbar--white {
+  width: 100%;
+  height: 65px;
+  background-color: #683ce4;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+}
+
+.navbar__container {
+  width: 95%;
+  max-width: 1400px;
+  height: 60px;
+  background-color: #00000000;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.navbar__linkers {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.navbar__buttons {
+  margin-left: 10px;
+}
+
+/*
+----------------------------------------------
+ \ \   / /_ _ _ __(_) __ _| |__ | | ___  ___ 
+  \ \ / / _` | '__| |/ _` | '_ \| |/ _ \/ __|
+   \ V / (_| | |  | | (_| | |_) | |  __/\__ \
+    \_/ \__,_|_|  |_|\__,_|_.__/|_|\___||___/
+----------------------------------------------                                                        
+                            made by TyP labs
+*/
+.selector {
+  font-family: 'Roboto', sans-serif;
+  font-size: 24px;
+  border: 2px solid #404059;
+  background-color: #00000000;
+  color: #404059;
+  border-radius: 8px;
+  cursor: pointer;
+  height: 100px;
+  width: 100%;
+  -webkit-transition: 300ms all;
+  transition: 300ms all;
+  outline: none;
+}
+
+.selector:hover {
+  background-color: #683ce4;
+  color: #fff;
+  border: 2px solid #683ce4;
+  -webkit-box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+}
+
+.selector--white {
+  font-family: 'Roboto', sans-serif;
+  font-size: 24px;
+  border: 2px solid #fff;
+  background-color: #00000000;
+  color: #fff;
+  border-radius: 8px;
+  cursor: pointer;
+  height: 100px;
+  width: 100%;
+  -webkit-transition: 300ms all;
+  transition: 300ms all;
+  outline: none;
+}
+
+.selector--white:hover {
+  background-color: #683ce4;
+  color: #fff;
+  border: 2px solid #683ce4;
+  -webkit-box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+}
+
+/*
+----------------------------------------------
+ \ \   / /_ _ _ __(_) __ _| |__ | | ___  ___ 
+  \ \ / / _` | '__| |/ _` | '_ \| |/ _ \/ __|
+   \ V / (_| | |  | | (_| | |_) | |  __/\__ \
+    \_/ \__,_|_|  |_|\__,_|_.__/|_|\___||___/
+----------------------------------------------                                                        
+                            made by TyP labs
+*/
+.state-bar {
+  height: 50px;
+  width: -webkit-max-content;
+  width: -moz-max-content;
+  width: max-content;
+  padding: 0 10px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-transition: all 300ms;
+  transition: all 300ms;
+}
+
+.statebar__circle {
+  height: 20px;
+  width: 20px;
+  border-radius: 20px;
+  border: 1px solid #211432;
+  background-color: #00000000;
+  margin: 0 5px;
+  -webkit-transition: all 300ms;
+  transition: all 300ms;
+}
+
+.statebar__circle--selected {
+  height: 20px;
+  width: 20px;
+  border-radius: 20px;
+  border: 1px solid #211432;
+  background-color: #683ce4;
+  margin: 0 5px;
+  -webkit-transition: all 300ms;
+  transition: all 300ms;
+}
+
+/*
+----------------------------------------------
+ \ \   / /_ _ _ __(_) __ _| |__ | | ___  ___ 
+  \ \ / / _` | '__| |/ _` | '_ \| |/ _ \/ __|
+   \ V / (_| | |  | | (_| | |_) | |  __/\__ \
+    \_/ \__,_|_|  |_|\__,_|_.__/|_|\___||___/
+----------------------------------------------                                                        
+                            made by TyP labs
+*/
+.footer {
+  width: 100%;
+  height: -webkit-max-content;
+  height: -moz-max-content;
+  height: max-content;
+  padding: 50px 0;
+  background-color: #342844;
+}
+
+.footer__list {
+  list-style: none;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+body {
+  font-family: 'Roboto', sans-serif;
+  background-color: #2b2935;
+  margin: 0;
+  padding: 0;
+}
+/*# sourceMappingURL=index.css.map */
