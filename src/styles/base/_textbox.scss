@@ -1,37 +1,37 @@
 @import '../variables';
 
-.textbox{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: flex-start;
+.textbox {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
 }
 
-.textbox__container{
-    height: 46px;
-    border-radius: $border-min;
-    background-color: $transparent;
-    border: 2px solid $black;
-    display: flex;
-    justify-content: flex-start;
-    align-items: center;
-    padding: 0;
-    width: calc(100% - 4px);
+.textbox__container {
+  height: 46px;
+  border-radius: $border-min;
+  background-color: $transparent;
+  border: 2px solid $black;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  padding: 0;
+  width: calc(100% - 4px);
 }
 
-.textbox__input{
-    outline: none;
-    background-color: $transparent;
-    border-radius: $border-min;
-    border-style: none;
-    padding: 0;
-    height: 46px;
-    margin: 0 0 0 10px;
-    width: calc(100% - 30px);
+.textbox__input {
+  outline: none;
+  background-color: $transparent;
+  border-radius: $border-min;
+  border-style: none;
+  padding: 0;
+  height: 46px;
+  margin: 0 0 0 10px;
+  width: calc(100% - 30px);
 }
 
-.textbox__img{
-    height: 25px;
-    width: 25px;
-    margin-left: 10px;
+.textbox__img {
+  height: 25px;
+  width: 25px;
+  margin-left: 10px;
 }

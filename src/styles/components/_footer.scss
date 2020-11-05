@@ -1,0 +1,15 @@
+@import '../variables';
+
+.footer {
+  width: 100%;
+  height: max-content;
+  padding: 50px 0;
+  background-color: $secondary-color;
+}
+
+.footer__list {
+  list-style: none;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}

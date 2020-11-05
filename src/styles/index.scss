@@ -21,11 +21,11 @@
 @import './components/navbar';
 @import './base/selector';
 @import './base/stateBar';
+@import './components/footer';
 
-
-body{
-    font-family: $principal-font, $secondary-font;
-    background-color: $background-color;
-    margin: 0;
-    padding: 0;
+body {
+  font-family: $principal-font, $secondary-font;
+  background-color: $background-color;
+  margin: 0;
+  padding: 0;
 }

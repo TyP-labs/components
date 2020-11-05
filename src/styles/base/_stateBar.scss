@@ -1,28 +1,28 @@
 @import '../variables';
 $round: 20px;
-.state-bar{
-    height: $height;
-    width: max-content;
-    padding: 0 10px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+.state-bar {
+  height: $height;
+  width: max-content;
+  padding: 0 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
-.statebar__circle{
-    height: $round;
-    width: $round;
-    border-radius: $round;
-    border: 1px solid $black;
-    background-color: $transparent;
-    margin: 0 5px;
+.statebar__circle {
+  height: $round;
+  width: $round;
+  border-radius: $round;
+  border: 1px solid $black;
+  background-color: $transparent;
+  margin: 0 5px;
 }
 
-.statebar__circle--selected{
-    height: $round;
-    width: $round;
-    border-radius: $round;
-    border: 1px solid $black;
-    background-color: $principal-color;
-    margin: 0 5px;
+.statebar__circle--selected {
+  height: $round;
+  width: $round;
+  border-radius: $round;
+  border: 1px solid $black;
+  background-color: $principal-color;
+  margin: 0 5px;
 }
