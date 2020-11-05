@@ -1,0 +1,31 @@
+/*
+-----------------------------
+  ___           _           
+ |_ _|_ __   __| | _____  __
+  | || '_ \ / _` |/ _ \ \/ /
+  | || | | | (_| |  __/>  < 
+ |___|_| |_|\__,_|\___/_/\_\
+-----------------------------        
+            made by TyP labs
+*/
+
+@import './base/button';
+@import './base/logo';
+@import './base/card';
+@import './base/textbox';
+@import './variables';
+@import './base/floatButton';
+@import './base/text';
+@import './variables';
+@import './base/linker';
+@import './components/navbar';
+@import './base/selector';
+@import './base/stateBar';
+@import './components/footer';
+
+body {
+  font-family: $principal-font, $secondary-font;
+  background-color: $background-color;
+  margin: 0;
+  padding: 0;
+}
