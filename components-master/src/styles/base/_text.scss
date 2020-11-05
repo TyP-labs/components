@@ -1,0 +1,137 @@
+@import '../variables';
+
+.text__h1 {
+  font-size: $text-huge;
+  color: $black;
+  margin: 0;
+  padding: 0;
+  cursor: default;
+}
+
+.text__h1--white {
+  font-size: $text-huge;
+  color: $white;
+  margin: 0;
+  padding: 0;
+  cursor: default;
+}
+
+.text__h2--black {
+  font-size: $text-big;
+  color: $black;
+  margin: 0;
+  padding: 0;
+  cursor: default;
+}
+
+.text__h2--white {
+  font-size: $text-big;
+  color: $white;
+  margin: 0;
+  padding: 0;
+  cursor: default;
+}
+
+.text__h2 {
+  font-size: $text-big;
+  color: $dark-gray-color;
+  margin: 0;
+  padding: 0;
+  cursor: default;
+}
+
+.text__h3--black {
+  font-size: $text-mid;
+  color: $dark-gray-color;
+  margin: 0;
+  padding: 0;
+  cursor: default;
+}
+
+.text__h3--white {
+  font-size: $text-mid;
+  color: $white;
+  margin: 0;
+  padding: 0;
+  cursor: default;
+}
+
+.text__h3 {
+  font-size: $text-mid;
+  color: $light-gray-color;
+  margin: 0;
+  padding: 0;
+  cursor: default;
+}
+
+.text__h6--black {
+  font-size: $text-min;
+  color: $dark-gray-color;
+  margin: 0;
+  padding: 0;
+  cursor: default;
+}
+
+.text__h6--white {
+  font-size: $text-min;
+  color: $white;
+  margin: 0;
+  padding: 0;
+  cursor: default;
+}
+
+.text__h6 {
+  font-size: $text-min;
+  color: $light-gray-color;
+  margin: 0;
+  padding: 0;
+  cursor: default;
+}
+
+.text__p {
+  font-size: $text-p;
+  color: $dark-gray-color;
+  margin: 0;
+  padding: 0;
+  cursor: default;
+}
+
+.text__p--black {
+  font-size: $text-p;
+  color: $black;
+  margin: 0;
+  padding: 0;
+  cursor: default;
+}
+
+.text__p--white {
+  font-size: $text-p;
+  color: $white;
+  margin: 0;
+  padding: 0;
+  cursor: default;
+}
+
+.text__span {
+  font-size: $text-p;
+  color: $dark-gray-color;
+  margin: 0;
+  padding: 0;
+  cursor: default;
+}
+
+.text__span--black {
+  font-size: $text-p;
+  color: $black;
+  margin: 0;
+  padding: 0;
+  cursor: default;
+}
+
+.text__span--white {
+  font-size: $text-p;
+  color: $white;
+  margin: 0;
+  padding: 0;
+  cursor: default;
+}
