@@ -12,7 +12,6 @@ import Selector from '../base/selector';
 import StateBar from '../base/StateBar';
 import Footer from '../components/Footer.jsx';
 
-
 const Landing = () => {
   const [text, setText] = useState('');
   let [value, setValue] = useState(1);
@@ -119,19 +118,16 @@ const Landing = () => {
       </div>
 
       <div style={{ margin: '10px 0' }}>
-
         <div style={{ width: '420px', margin: '0 0 10px 0' }}>
           <Button value="continue" handleClick={() => setValue((value += 1))} />
         </div>
-        
-        <StateBar length={3} actual={value} />
 
+        <StateBar length={3} actual={value} />
       </div>
 
       <div>
-        <Footer list={["Políticas de privacidad"]}/>
+        <Footer list={['Políticas de privacidad']} />
       </div>
-
     </div>
   );
 };

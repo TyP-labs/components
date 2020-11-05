@@ -21,14 +21,14 @@ export const Primary = Template.bind({});
 Primary.args = {
   isPrincipal: true,
   value: 'Button',
-  handleClick: action
+  handleClick: action,
 };
 
 export const Secondary = Template.bind({});
 Secondary.args = {
   isPrincipal: false,
   value: 'Button',
-  handleClick: action
+  handleClick: action,
 };
 
 export const PrimaryWhite = Template.bind({});
@@ -36,7 +36,7 @@ PrimaryWhite.args = {
   isPrincipal: true,
   value: 'Button',
   isWhite: true,
-  handleClick: action
+  handleClick: action,
 };
 
 export const SecondaryWhite = Template.bind({});
@@ -44,5 +44,5 @@ SecondaryWhite.args = {
   isPrincipal: false,
   value: 'Button',
   isWhite: true,
-  handleClick: action
+  handleClick: action,
 };
