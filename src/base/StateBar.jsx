@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from 'react';
+import React from 'react';
 
 const Circle = (props) => {
   const { isSelected, key } = props;
@@ -21,7 +21,7 @@ const StateBar = (props) => {
   const { length, actual } = props;
   const items = [];
 
-  for (let i = 1; i <= props.length; i++) {
+  for (let i = 1; i <= length; i++) {
     let isSelected;
     i === actual ? (isSelected = true) : (isSelected = false);
 

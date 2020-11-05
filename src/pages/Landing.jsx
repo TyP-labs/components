@@ -126,7 +126,15 @@ const Landing = () => {
       </div>
 
       <div>
-        <Footer list={['Políticas de privacidad']} />
+        <Footer
+          list={[
+            'Políticas de privacidad',
+            'Términos y Condiciones',
+            'Contacto',
+            'Crear Comunidad',
+            'Iniciar Sesión',
+          ]}
+        />
       </div>
     </div>
   );

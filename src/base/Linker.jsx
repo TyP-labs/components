@@ -5,10 +5,11 @@ import React from 'react';
  * @param {string} value title value
  * @param {*} handleClick function to handle click event
  * @param {boolean} isWhite select between white and violet linker style
+ * @param {integer} key key
  * @return Linker
  */
 const Linker = (props) => {
-  const { value, handleClick, isWhite } = props;
+  const { value, handleClick, isWhite, key } = props;
 
   const properties = {
     type: 'button',

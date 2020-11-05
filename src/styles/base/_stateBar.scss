@@ -1,5 +1,6 @@
 @import '../variables';
 $round: 20px;
+
 .state-bar {
   height: $height;
   width: max-content;
@@ -13,7 +14,7 @@ $round: 20px;
   height: $round;
   width: $round;
   border-radius: $round;
-  border: 1px solid $black;
+  border: 1px solid $dark-gray-color;
   background-color: $transparent;
   margin: 0 5px;
 }
@@ -22,7 +23,7 @@ $round: 20px;
   height: $round;
   width: $round;
   border-radius: $round;
-  border: 1px solid $black;
+  border: 1px solid $principal-color;
   background-color: $principal-color;
   margin: 0 5px;
 }
