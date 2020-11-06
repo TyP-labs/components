@@ -1,4 +1,5 @@
 import React from 'react';
+import PropTypes from 'prop-types';
 import { useHistory } from 'react-router';
 import Linker from '../base/Linker';
 import Logo from '../base/Logo';
@@ -43,6 +44,10 @@ const Footer = (props) => {
       </div>
     </div>
   );
+};
+
+Footer.propTypes = {
+  list: PropTypes.array.isRequired,
 };
 
 export default Footer;

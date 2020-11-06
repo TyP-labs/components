@@ -1,4 +1,5 @@
 import React from 'react';
+import PropTypes from 'prop-types';
 
 const Circle = (props) => {
   const { isSelected, key } = props;
@@ -35,6 +36,11 @@ const StateBar = (props) => {
       })}
     </div>
   );
+};
+
+StateBar.propTypes = {
+  length: PropTypes.number.isRequired,
+  actual: PropTypes.number.isRequired,
 };
 
 export default StateBar;

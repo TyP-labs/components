@@ -1,4 +1,5 @@
 import React from 'react';
+import PropTypes from 'prop-types';
 
 /**
  * Float Button
@@ -15,6 +16,11 @@ const FloatButton = (props) => {
       <span className="float-button__value">{value}</span>
     </div>
   );
+};
+
+FloatButton.propTypes = {
+  handleClick: PropTypes.func,
+  value: PropTypes.string.isRequired,
 };
 
 export default FloatButton;

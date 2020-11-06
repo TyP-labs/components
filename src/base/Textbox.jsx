@@ -1,4 +1,5 @@
 import React from 'react';
+import PropTypes from 'prop-types';
 
 /**
  * Textbox UI Component
@@ -34,6 +35,15 @@ const Textbox = (props) => {
       </div>
     </div>
   );
+};
+
+Textbox.propTypes = {
+  title: PropTypes.string,
+  placeholder: PropTypes.string,
+  handleChange: PropTypes.func.isRequired,
+  isPassword: PropTypes.bool,
+  alt: PropTypes.string,
+  img: PropTypes.any,
 };
 
 export default Textbox;

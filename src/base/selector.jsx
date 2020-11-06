@@ -1,4 +1,5 @@
 import React from 'react';
+import PropTypes from 'prop-types';
 
 /**
  * Selector UI Base Component
@@ -18,6 +19,12 @@ const Selector = (props) => {
   };
 
   return <input {...propieties} />;
+};
+
+Selector.propTypes = {
+  value: PropTypes.string.isRequired,
+  isWhite: PropTypes.bool,
+  handleClick: PropTypes.func,
 };
 
 export default Selector;

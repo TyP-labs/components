@@ -1,4 +1,5 @@
 import React from 'react';
+import PropTypes from 'prop-types';
 
 /**
  * Button UI Component
@@ -25,6 +26,13 @@ const Button = (props) => {
   };
 
   return <input {...properties} />;
+};
+
+Button.propTypes = {
+  value: PropTypes.string.isRequired,
+  handleClick: PropTypes.func,
+  isPrincipal: PropTypes.bool,
+  isWhite: PropTypes.bool,
 };
 
 export default Button;

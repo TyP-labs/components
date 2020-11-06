@@ -1,4 +1,5 @@
 import React from 'react';
+import PropTypes from 'prop-types';
 import Linker from '../base/Linker';
 import { useHistory } from 'react-router';
 import Logo from '../base/Logo';
@@ -53,6 +54,10 @@ const Navbar = (props) => {
       </div>
     </div>
   );
+};
+
+Navbar.propTypes = {
+  isWhite: PropTypes.bool,
 };
 
 export default Navbar;

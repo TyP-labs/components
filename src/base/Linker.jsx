@@ -1,4 +1,5 @@
 import React from 'react';
+import PropTypes from 'prop-types';
 
 /**
  * Linker UI Base Component
@@ -16,9 +17,17 @@ const Linker = (props) => {
     value: value,
     onClick: handleClick,
     className: isWhite ? 'linker--white' : 'linker',
+    key: key,
   };
 
   return <input {...properties} />;
+};
+
+Linker.propTypes = {
+  value: PropTypes.string.isRequired,
+  handleClick: PropTypes.func,
+  isWhite: PropTypes.bool,
+  key: PropTypes.any,
 };
 
 export default Linker;

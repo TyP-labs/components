@@ -1,4 +1,5 @@
 import React from 'react';
+import PropTypes from 'prop-types';
 import LogoWhite from '../assets/logo-icon-white.png';
 import LogoViolet from '../assets/logo-icon.png';
 
@@ -23,6 +24,10 @@ const Logo = (props) => {
       </h3>
     </div>
   );
+};
+
+Logo.propTypes = {
+  isWhite: PropTypes.bool,
 };
 
 export default Logo;
