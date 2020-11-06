@@ -32,7 +32,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,500;1,100&display=swap");
 .button-principal {
   background-color: #683ce4;
-  color: #f5f5f5;
+  color: #fff;
   border-radius: 8px;
   border-style: none;
   cursor: pointer;
@@ -40,36 +40,36 @@
   width: 100%;
   -webkit-transition: all 300ms;
   transition: all 300ms;
-  -webkit-box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
-  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
   font-size: 14px;
   outline: none;
   font-family: "Roboto", sans-serif;
   padding: 0;
+  -webkit-box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
 }
 
 .button-principal:hover {
+  -webkit-box-shadow: 0px 4px 10px 0px rgba(0, 0, 0, 0.25);
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
   -webkit-transform: scale(1.025);
           transform: scale(1.025);
-  -webkit-box-shadow: 0px 4px 10px 0px rgba(0, 0, 0, 0.25);
-  box-shadow: 0px 4px 10px 0px rgba(0, 0, 0, 0.25);
 }
 
 .button-secondary {
-  border-style: none;
-  border: 3px solid #342844;
-  height: 50px;
-  width: 100%;
+  background-color: #00000000;
   color: #342844;
   border-radius: 8px;
-  background-color: #00000000;
+  border-style: none;
   cursor: pointer;
-  font-size: 14px;
-  outline: none;
+  height: 50px;
+  width: 100%;
   -webkit-transition: all 300ms;
   transition: all 300ms;
+  font-size: 14px;
+  outline: none;
   font-family: "Roboto", sans-serif;
   padding: 0;
+  border: 3px solid #342844;
 }
 
 .button-secondary:hover {
@@ -80,6 +80,8 @@
 }
 
 .button-principal--white {
+  -webkit-box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
   background-color: #fff;
   color: #683ce4;
   border-radius: 8px;
@@ -89,8 +91,6 @@
   width: 100%;
   -webkit-transition: all 300ms;
   transition: all 300ms;
-  -webkit-box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
-  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
   font-size: 14px;
   outline: none;
   font-family: "Roboto", sans-serif;
@@ -105,20 +105,20 @@
 }
 
 .button-secondary--white {
-  border-style: none;
-  border: 3px solid #fff;
-  height: 50px;
-  width: 100%;
+  background-color: #00000000;
   color: #fff;
   border-radius: 8px;
-  background-color: #00000000;
+  border-style: none;
   cursor: pointer;
-  font-size: 14px;
-  outline: none;
+  height: 50px;
+  width: 100%;
   -webkit-transition: all 300ms;
   transition: all 300ms;
+  font-size: 14px;
+  outline: none;
   font-family: "Roboto", sans-serif;
   padding: 0;
+  border: 3px solid #fff;
 }
 
 .button-secondary--white:hover {

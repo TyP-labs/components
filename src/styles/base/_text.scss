@@ -1,6 +1,6 @@
 @import '../variables';
 
-@mixin text ($font-size: $text-huge, $color: $black) {
+@mixin text ($font-size, $color) {
   font-size: $font-size;
   color:  $color;
   margin: 0;
