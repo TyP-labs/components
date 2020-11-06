@@ -24,7 +24,7 @@
 @import './components/footer';
 
 body {
-  font-family: $principal-font, $secondary-font;
+  @include font-family;
   background-color: $background-color;
   margin: 0;
   padding: 0;

@@ -45,11 +45,6 @@
 }
 
 .text__h6--white {
-  font-size: $text-min;
-  color: $white;
-  margin: 0;
-  padding: 0;
-  cursor: default;
   @include text($text-min,$white)
 }
 

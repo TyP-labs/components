@@ -12,6 +12,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,500;1,100&display=swap');
 $principal-font: 'Roboto';
 $secondary-font: sans-serif;
+@mixin font-family {
+    font-family: $principal-font, $secondary-font;
+}
 
 //primary colors
 $principal-color: #683ce4;
