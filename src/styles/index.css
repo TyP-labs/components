@@ -372,14 +372,14 @@
 
 .text__h1--white {
   font-size: 64px;
-  color: #fff;
+  color: #211432;
   margin: 0;
   padding: 0;
   cursor: default;
 }
 
 .text__h2--black {
-  font-size: 36px;
+  font-size: 64px;
   color: #211432;
   margin: 0;
   padding: 0;
@@ -387,48 +387,48 @@
 }
 
 .text__h2--white {
-  font-size: 36px;
-  color: #fff;
+  font-size: 64px;
+  color: #211432;
   margin: 0;
   padding: 0;
   cursor: default;
 }
 
 .text__h2 {
-  font-size: 36px;
-  color: #404059;
+  font-size: 64px;
+  color: #211432;
   margin: 0;
   padding: 0;
   cursor: default;
 }
 
 .text__h3--black {
-  font-size: 24px;
-  color: #404059;
+  font-size: 64px;
+  color: #211432;
   margin: 0;
   padding: 0;
   cursor: default;
 }
 
 .text__h3--white {
-  font-size: 24px;
-  color: #fff;
+  font-size: 64px;
+  color: #211432;
   margin: 0;
   padding: 0;
   cursor: default;
 }
 
 .text__h3 {
-  font-size: 24px;
-  color: #91919d;
+  font-size: 64px;
+  color: #211432;
   margin: 0;
   padding: 0;
   cursor: default;
 }
 
 .text__h6--black {
-  font-size: 18px;
-  color: #404059;
+  font-size: 64px;
+  color: #211432;
   margin: 0;
   padding: 0;
   cursor: default;
@@ -440,26 +440,31 @@
   margin: 0;
   padding: 0;
   cursor: default;
+  font-size: 64px;
+  color: #211432;
+  margin: 0;
+  padding: 0;
+  cursor: default;
 }
 
 .text__h6 {
-  font-size: 18px;
-  color: #91919d;
+  font-size: 64px;
+  color: #211432;
   margin: 0;
   padding: 0;
   cursor: default;
 }
 
 .text__p {
-  font-size: 14px;
-  color: #404059;
+  font-size: 64px;
+  color: #211432;
   margin: 0;
   padding: 0;
   cursor: default;
 }
 
 .text__p--black {
-  font-size: 14px;
+  font-size: 64px;
   color: #211432;
   margin: 0;
   padding: 0;
@@ -467,23 +472,23 @@
 }
 
 .text__p--white {
-  font-size: 14px;
-  color: #fff;
+  font-size: 64px;
+  color: #211432;
   margin: 0;
   padding: 0;
   cursor: default;
 }
 
 .text__span {
-  font-size: 14px;
-  color: #404059;
+  font-size: 64px;
+  color: #211432;
   margin: 0;
   padding: 0;
   cursor: default;
 }
 
 .text__span--black {
-  font-size: 14px;
+  font-size: 64px;
   color: #211432;
   margin: 0;
   padding: 0;
@@ -491,8 +496,8 @@
 }
 
 .text__span--white {
-  font-size: 14px;
-  color: #fff;
+  font-size: 64px;
+  color: #211432;
   margin: 0;
   padding: 0;
   cursor: default;

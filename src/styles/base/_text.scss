@@ -1,75 +1,47 @@
 @import '../variables';
 
-.text__h1 {
+@mixin text ($font-size: $text-huge, $color: $black) {
   font-size: $text-huge;
   color: $black;
   margin: 0;
   padding: 0;
   cursor: default;
+}
+
+.text__h1 {
+  @include text($text-huge,$black)
 }
 
 .text__h1--white {
-  font-size: $text-huge;
-  color: $white;
-  margin: 0;
-  padding: 0;
-  cursor: default;
+  @include text($text-huge,$white)
 }
 
 .text__h2--black {
-  font-size: $text-big;
-  color: $black;
-  margin: 0;
-  padding: 0;
-  cursor: default;
+  @include text($text-big,$black)
 }
 
 .text__h2--white {
-  font-size: $text-big;
-  color: $white;
-  margin: 0;
-  padding: 0;
-  cursor: default;
+  @include text($text-big,$white)
 }
 
 .text__h2 {
-  font-size: $text-big;
-  color: $dark-gray-color;
-  margin: 0;
-  padding: 0;
-  cursor: default;
+  @include text($text-big,$dark-gray-color)
 }
 
 .text__h3--black {
-  font-size: $text-mid;
-  color: $dark-gray-color;
-  margin: 0;
-  padding: 0;
-  cursor: default;
+  @include text($text-mid,$dark-gray-color)
 }
 
 .text__h3--white {
-  font-size: $text-mid;
-  color: $white;
-  margin: 0;
-  padding: 0;
-  cursor: default;
+  @include text($text-mid,$white)
 }
 
 .text__h3 {
-  font-size: $text-mid;
-  color: $light-gray-color;
-  margin: 0;
-  padding: 0;
-  cursor: default;
+  @include text($text-mid,$light-gray-color)
 }
 
 .text__h6--black {
-  font-size: $text-min;
-  color: $dark-gray-color;
-  margin: 0;
-  padding: 0;
-  cursor: default;
+  @include text($text-min,$dark-gray-color)
 }
 
 .text__h6--white {
@@ -78,60 +50,33 @@
   margin: 0;
   padding: 0;
   cursor: default;
+  @include text($text-min,$white)
 }
 
 .text__h6 {
-  font-size: $text-min;
-  color: $light-gray-color;
-  margin: 0;
-  padding: 0;
-  cursor: default;
+  @include text($text-min,$light-gray-color)
 }
 
 .text__p {
-  font-size: $text-p;
-  color: $dark-gray-color;
-  margin: 0;
-  padding: 0;
-  cursor: default;
+  @include text($text-p,$dark-gray-color)
 }
 
 .text__p--black {
-  font-size: $text-p;
-  color: $black;
-  margin: 0;
-  padding: 0;
-  cursor: default;
+  @include text($text-p,$black)
 }
 
 .text__p--white {
-  font-size: $text-p;
-  color: $white;
-  margin: 0;
-  padding: 0;
-  cursor: default;
+  @include text($text-p,$white)
 }
 
 .text__span {
-  font-size: $text-p;
-  color: $dark-gray-color;
-  margin: 0;
-  padding: 0;
-  cursor: default;
+  @include text($text-p, $dark-gray-color)
 }
 
 .text__span--black {
-  font-size: $text-p;
-  color: $black;
-  margin: 0;
-  padding: 0;
-  cursor: default;
+  @include text($text-p,$black)
 }
 
 .text__span--white {
-  font-size: $text-p;
-  color: $white;
-  margin: 0;
-  padding: 0;
-  cursor: default;
+  @include text($text-p,$white)
 }
