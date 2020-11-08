@@ -22,6 +22,7 @@
 @import './base/selector';
 @import './base/stateBar';
 @import './components/footer';
+@import './pages/landing';
 
 body {
   @include font-family;
