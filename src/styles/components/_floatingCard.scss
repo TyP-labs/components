@@ -1,74 +1,147 @@
 @import '../variables';
 
-.floating-card{
-    height: 500px;
-    width: 650px;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+.floating-card {
+  height: max-content;
+  width: 650px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
 $len: 350px;
 
-.floating-card__circle{
-    height: $len;
-    width: $len;
-    border-radius: $len;
-    background: linear-gradient(45deg, $principal-color, $affirmative-color);
-    display: flex;
-    justify-content: center;
-    align-items: center;
+.floating-card__circle {
+  height: $len;
+  width: $len;
+  border-radius: $len;
+  background: linear-gradient(45deg, $principal-color, $affirmative-color);
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 $square: 300px;
 
-.floating-card__square{
-    height: $square;
-    width: $square;
-    background-color: $white;
-    border-radius: $border-max;
-    box-shadow: 0 0 30px 0 rgba(0, 0, 0, 0.2);
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+.floating-card__square {
+  height: $square;
+  width: $square;
+  background-color: $white;
+  border-radius: $border-max;
+  box-shadow: 0 0 30px 0 rgba(0, 0, 0, 0.2);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
-@mixin cards ($color, $shadow){
-    background-color: $color;
-    border-radius: $border-max;
-    box-shadow: 0 0 30px 0 $shadow;
-    height: 75px;
-    padding: 0 20px;
-    width: 210px;
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
+@mixin cards($color, $shadow) {
+  background-color: $color;
+  border-radius: $border-max;
+  box-shadow: 0 0 30px 0 $shadow;
+  height: 75px;
+  padding: 0 20px;
+  width: 210px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
 }
 
-.floating-card__cards__item--green{
-    @include cards($affirmative-color, #10e5b27f)
+.floating-card__cards__item--green {
+  @include cards($affirmative-color, #10e5b27f);
 }
 
-.floating-card__cards__item--violet{
-    @include cards($principal-color, #683ce47f)
+.floating-card__cards__item--violet {
+  @include cards($principal-color, #683ce47f);
 }
 
-.floating-card__cards__item--img{
-    width: 44px;
-    height: 44px;
+.floating-card__cards__item--img {
+  width: 44px;
+  height: 44px;
 }
 
-.floating-card__cards{
-    display: flex;
-    width: 500px;
+.floating-card__cards {
+  display: flex;
+  width: 500px;
+  height: 0px;
 }
 
-.floating-card__cards-item1{
-    transform: translateY(-60px);
+@keyframes floating-cards {
+  0% {
+    transform: translateY(-60px) translateX(0px);
+  }
+  100% {
+    transform: translateY(-80px) translateX(-10px);
+  }
 }
 
-.floating-card__cards-item2{
-    transform: translateY(-360px);
+@keyframes floating-cards2 {
+  0% {
+    transform: translateY(-360px) translateX(0);
+  }
+  100% {
+    transform: translateY(-380px) translateX(10px);
+  }
+}
+
+.floating-card__cards-item1 {
+  transform: translateY(-60px);
+  animation: floating-cards 3s alternate infinite;
+}
+
+.floating-card__cards-item2 {
+  transform: translateY(-360px);
+  animation: floating-cards2 3s alternate infinite;
+}
+
+.floating-card__icons {
+  display: flex;
+  width: 500px;
+  justify-content: space-between;
+  height: 0px;
+}
+
+.floating-card__square--white {
+  border-radius: $border-max;
+  background-color: $white;
+  box-shadow: 0 0 30px 0 rgba(0, 0, 0, 0.2);
+  height: 75px;
+  width: 75px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+@keyframes floating-cards-square1 {
+  0% {
+    transform: translateY(-350px) translateX(0px);
+  }
+  100% {
+    transform: translateY(-370px) translateX(-20px);
+  }
+}
+
+@keyframes floating-cards-square2 {
+  0% {
+    transform: translateY(-200px) translateX(0px);
+  }
+  100% {
+    transform: translateY(-220px) translateX(-20px);
+  }
+}
+
+.floating-card__square--item1 {
+  transform: translateY(-350px);
+  animation: floating-cards-square1 3s alternate infinite;
+}
+
+.floating-card__square--item2 {
+  transform: translateY(-200px);
+  animation: floating-cards-square2 3s alternate infinite;
+}
+
+.floating-card__square--img {
+  height: 44px;
+  width: 44px;
+  transform: translateX(2px);
 }

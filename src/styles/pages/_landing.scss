@@ -73,7 +73,7 @@
   transform: translateY(-70px);
 }
 
-.landing__squares{
+.landing__squares {
   display: flex;
   width: 100%;
   max-width: 1400px;
@@ -81,67 +81,67 @@
   align-items: center;
 }
 
-@keyframes square1{
-  0%{
+@keyframes square1 {
+  0% {
     transform: translateY(-560px) translateX(-40px);
-  };
-  100%{
+  }
+  100% {
     transform: translateY(-580px) translateX(-50px);
-  };
+  }
 }
 
-@keyframes square2{
-  0%{
+@keyframes square2 {
+  0% {
     transform: translateY(-300px) translateX(15px);
-  };
-  100%{
+  }
+  100% {
     transform: translateY(-320px) translateX(25px);
-  };
+  }
 }
 
-@keyframes square3{
-  0%{
+@keyframes square3 {
+  0% {
     transform: translateY(-510px) translateX(-15px);
-  };
-  100%{
+  }
+  100% {
     transform: translateY(-530px) translateX(-25px);
-  };
+  }
 }
 
-@keyframes square4{
-  0%{
+@keyframes square4 {
+  0% {
     transform: translateY(-460px) translateX(40px);
-  };
-  100%{
+  }
+  100% {
     transform: translateY(-480px) translateX(60px);
-  };
+  }
 }
 
-.landing__squares-item1{
+.landing__squares-item1 {
   transform: translateY(-560px) translateX(-40px);
   animation: square1 3s alternate infinite;
 }
 
-.landing__squares-item2{
+.landing__squares-item2 {
   transform: translateY(-300px) translateX(15px);
   animation: square2 3s alternate infinite;
 }
 
-.landing__squares-item3{
+.landing__squares-item3 {
   transform: translateY(-510px) translateX(-15px);
   animation: square3 3s alternate infinite;
 }
 
-.landing__squares-item4{
+.landing__squares-item4 {
   transform: translateY(-460px) translateX(40px);
   animation: square4 3s alternate infinite;
 }
 
-.landing__section{
+.landing__section {
   margin: 300px 0 100px 0;
 }
 
-.landing__section-text{
+.landing__section-text {
   width: 100%;
   max-width: 1400px;
   display: flex;
@@ -151,7 +151,94 @@
   text-align: center;
 }
 
-.landing__section-text-p{
+.landing__section-text-p {
   width: 700px;
   margin: 10px 0 0 0;
+}
+
+.landing__section--gray {
+  width: 100%;
+  padding: 70px 0;
+  background-color: #f0f0f0;
+  height: max-content;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.landing__section--gray-text {
+  width: 100%;
+  max-width: 1400px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.landing__section--gray-text-items {
+  width: 450px;
+  height: 300px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+
+.landing__section--gray-text-pyramid {
+  width: 600px;
+  display: grid;
+  grid-template-columns: 200px 200px 200px;
+}
+
+.landing__section--gray-text-pyramid div {
+  display: flex;
+  flex-direction: column;
+  height: 500px;
+  align-items: center;
+  justify-content: center;
+}
+
+@mixin pyramid-item($color, $shadow) {
+  border-radius: $border-max;
+  background-color: $color;
+  box-shadow: 0 0 30px 0 $shadow;
+  height: 150px;
+  width: 150px;
+  margin: 15px;
+  transition: all 300ms;
+}
+
+@keyframes pyramid {
+  0% {
+    transform: translateY(-50px);
+  }
+  100% {
+    transform: translateY(50px);
+  }
+}
+
+.landing__section--gray-text-pyramid-row1 div {
+  @include pyramid-item($white, #00000010);
+  animation: pyramid 4s alternate-reverse infinite;
+}
+
+.landing__section--gray-text-pyramid-row1 div:hover {
+  background-color: #f8f8f8;
+}
+
+.landing__section--gray-text-pyramid-row2 div {
+  @include pyramid-item($principal-color, #683ce47f);
+  animation: pyramid 4s 500ms alternate-reverse infinite;
+}
+
+.landing__section--gray-text-pyramid-row2 div:hover {
+  background-color: #5521e4;
+}
+
+.landing__section--gray-text-pyramid-row3 div {
+  @include pyramid-item($affirmative-color, #10e5b27f);
+  animation: pyramid 4s 1000ms alternate-reverse infinite;
+}
+
+.landing__section--gray-text-pyramid-row3 div:hover {
+  background-color: #00af86;
 }
