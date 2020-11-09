@@ -118,12 +118,37 @@ const Landing = () => {
         </div>
 
         <div className="landing__squares">
-          <Square img={Square1} alt="icon" />
-          <Square img={Square2} alt="icon" />
-          <Square img={Square3} alt="icon" />
-          <Square img={Square4} alt="icon" />
+
+          <div className="landing__squares-item1">
+            <Square img={Square1} alt="icon" />
+          </div>
+
+          <div className="landing__squares-item2">
+            <Square img={Square2} alt="icon" />
+          </div>
+
+          <div className="landing__squares-item3"> 
+            <Square img={Square3} alt="icon" />
+          </div>
+
+          <div className="landing__squares-item4">
+            <Square img={Square4} alt="icon" />
+          </div>
+
         </div>
       </div>
+
+      <div className="landing__section">
+          <div className="landing__section-text">
+            <h3 className="text__h3--black">Servicios de última tecnología al menor costo</h3>
+            <h2 className="text__h1" style={{fontWeight: 'bolder'}}>Automatiza y simplifica tareas</h2>
+            <div className="landing__section-text-p">
+              <p className="text__h3">Brinda una interfaz amigable y centrada en el individuo. Olvidate de funciones innecesarias y personaliza la gestión al máximo. Da el paso que tu comunidad necesita.</p>
+            </div>
+          </div>
+      </div>
+
+      
     </div>
   );
 };
