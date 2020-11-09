@@ -873,8 +873,8 @@
     opacity: 0;
   }
   100% {
-    -webkit-transform: translateY(-100px);
-            transform: translateY(-100px);
+    -webkit-transform: translateY(-50px);
+            transform: translateY(-50px);
     opacity: 1;
   }
 }
@@ -885,8 +885,8 @@
     opacity: 0;
   }
   100% {
-    -webkit-transform: translateY(-100px);
-            transform: translateY(-100px);
+    -webkit-transform: translateY(-50px);
+            transform: translateY(-50px);
     opacity: 1;
   }
 }
@@ -1324,7 +1324,7 @@
 }
 
 .landing__section {
-  margin: 350px 0 100px 0;
+  margin: 300px 0 100px 0;
 }
 
 .landing__section-text {
