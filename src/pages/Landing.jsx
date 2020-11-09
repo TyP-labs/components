@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 import PropTypes from 'prop-types';
 import { useHistory } from 'react-router';
 import Button from '../base/Button';
@@ -108,6 +108,10 @@ const Landing = () => {
   const url = (path) => {
     history.push(path);
   };
+
+  useEffect(()=>{
+    window.scrollTo(0, 0)
+  }, [])
 
   return (
     <div className="landing">

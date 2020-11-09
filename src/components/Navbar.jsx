@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useState } from 'react';
 import PropTypes from 'prop-types';
 import Linker from '../base/Linker';
 import { useHistory } from 'react-router';
@@ -13,10 +13,23 @@ import Button from '../base/Button';
 const Navbar = (props) => {
   const { isWhite } = props;
   const history = useHistory();
+  let[style,setStyle] = useState(isWhite)
 
   const properties = {
-    isWhite: isWhite ? true : false,
+    isWhite: style,
   };
+
+  const changeStyle = () => {
+      if(window.scrollY >= 70){
+          setStyle(false)
+          properties.isWhite = true
+      }else{
+          setStyle(true)
+          properties.isWhite = false
+      }
+  }
+
+  window.addEventListener('scroll', changeStyle)
 
   const linkers = ['Sobre Nosotros', 'Servicios', 'Precios', 'Iniciar Sesión'];
 
@@ -26,7 +39,7 @@ const Navbar = (props) => {
   };
 
   return (
-    <div className={isWhite ? 'navbar--white' : 'navbar'}>
+    <div className={isWhite ? style ? 'navbar--white' : 'navbar--scroll' : style ? 'navbar' : 'navbar--white--scroll'}>
       <div className="navbar__container">
         <Logo {...properties} />
         <div className="navbar__linkers">
@@ -44,7 +57,7 @@ const Navbar = (props) => {
             <div className="button__container">
               <Button
                 {...properties}
-                isPrincipal={isWhite ? false : true}
+                isPrincipal={true}
                 value="Crear Cuenta"
                 handleClick={handleClick.bind(this, 'crear cuenta')}
               />
