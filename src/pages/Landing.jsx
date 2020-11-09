@@ -52,6 +52,56 @@ const Square = (props) => {
   );
 };
 
+
+const FloatingCard = props => {
+
+  const { name, division, imgCenter, leftText, rightText, leftImg, rightImg, leftTopImg, rigthBottomImg } = props
+
+  return(
+    <div className="floating-card">
+      <div className="floating-card__circle">
+        <div className="floating-card__square">
+            <img src={imgCenter} alt="icon" className="floating-card__square-img"/>
+            <h3 className="text__h3--black">{name}</h3>
+            <span className="text__span">{division}</span>
+        </div>
+      </div>
+
+      <div className="floating-card__cards">
+        <div className="floating-card__cards-item1">
+          <div className="floating-card__cards__item--green">
+            <img src={leftImg} alt="icon" className="floating-card__cards__item--img"/>
+            <span className="text__h3--white">{leftText}</span>
+          </div>
+        </div>
+
+        <div className="floating-card__cards-item2">
+          <div className="floating-card__cards__item--violet">
+            <img src={rightImg} alt="icon" className="floating-card__cards__item--img"/>
+            <span className="text__h3--white">{rightText}</span>
+          </div>
+        </div>
+      </div>
+
+      <div className="floating-card__square">
+        <div className="floating-card__square--item1">
+          <div className="floating-card__square--white">
+            <img src={leftTopImg} alt="icon" className="floating-card__square--img"/>
+          </div>
+        </div>
+
+        <div className="floating-card__square--item2">
+          <div className="floating-card__square--white">
+            <img src={rigthBottomImg} alt="icon" className="floating-card__square--img"/>
+          </div>
+        </div>
+      </div>
+    </div>
+  )
+}
+
+
+
 const Landing = () => {
   const history = useHistory();
 
@@ -148,7 +198,12 @@ const Landing = () => {
           </div>
       </div>
 
-      
+      <div className="landing__Section--gray">
+        <div>
+
+        </div>
+      </div>
+
     </div>
   );
 };

@@ -1,6 +1,7 @@
 @import '../variables';
 @import '../components/infoCard';
 @import '../base/square';
+@import '../components/floatingCard';
 
 .landing {
   display: flex;
@@ -97,7 +98,7 @@
 }
 
 .landing__section{
-  margin: 350px 0 0 0;
+  margin: 350px 0 100px 0;
 }
 
 .landing__section-text{
