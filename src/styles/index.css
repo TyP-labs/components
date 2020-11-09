@@ -881,6 +881,120 @@
 ----------------------------------------------                                                        
                             made by TyP labs
 */
+.floating-card {
+  height: 500px;
+  width: 650px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.floating-card__circle {
+  height: 350px;
+  width: 350px;
+  border-radius: 350px;
+  background: linear-gradient(45deg, #683ce4, #10e5b2);
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.floating-card__square {
+  height: 300px;
+  width: 300px;
+  background-color: #fff;
+  border-radius: 16px;
+  -webkit-box-shadow: 0 0 30px 0 rgba(0, 0, 0, 0.2);
+          box-shadow: 0 0 30px 0 rgba(0, 0, 0, 0.2);
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.floating-card__cards__item--green {
+  background-color: #10e5b2;
+  border-radius: 16px;
+  -webkit-box-shadow: 0 0 30px 0 #10e5b27f;
+          box-shadow: 0 0 30px 0 #10e5b27f;
+  height: 75px;
+  padding: 0 20px;
+  width: 210px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.floating-card__cards__item--violet {
+  background-color: #683ce4;
+  border-radius: 16px;
+  -webkit-box-shadow: 0 0 30px 0 #683ce47f;
+          box-shadow: 0 0 30px 0 #683ce47f;
+  height: 75px;
+  padding: 0 20px;
+  width: 210px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.floating-card__cards__item--img {
+  width: 44px;
+  height: 44px;
+}
+
+.floating-card__cards {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 500px;
+}
+
+.floating-card__cards-item1 {
+  -webkit-transform: translateY(-60px);
+          transform: translateY(-60px);
+}
+
+.floating-card__cards-item2 {
+  -webkit-transform: translateY(-360px);
+          transform: translateY(-360px);
+}
+
 .landing {
   display: -webkit-box;
   display: -ms-flexbox;

@@ -14,6 +14,8 @@ import Square2 from '../assets/icons8-security-lock-96-white.png';
 import Square3 from '../assets/icons8-family-two-men-96-white.png';
 import Square4 from '../assets/icons8-secured-letter-96-white.png';
 
+import Square5 from '../assets/icons8-user-96.png';
+
 /**
  * InfoCard Landing UI Component
  * @param {string} title card title string
@@ -83,7 +85,7 @@ const FloatingCard = props => {
         </div>
       </div>
 
-      <div className="floating-card__square">
+      <div className="floating-card__icons">
         <div className="floating-card__square--item1">
           <div className="floating-card__square--white">
             <img src={leftTopImg} alt="icon" className="floating-card__square--img"/>
@@ -99,8 +101,6 @@ const FloatingCard = props => {
     </div>
   )
 }
-
-
 
 const Landing = () => {
   const history = useHistory();
@@ -200,7 +200,7 @@ const Landing = () => {
 
       <div className="landing__Section--gray">
         <div>
-
+          <FloatingCard name="Joaquín Perez" division="2A - TM" imgCenter={Square5} leftText="Familiares" rightText="Asignaturas" rightImg={Square1} leftImg={Square3}/>
         </div>
       </div>
 
