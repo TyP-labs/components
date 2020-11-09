@@ -1,6 +1,19 @@
 @import '../variables';
 
+@keyframes info-card-load{
+  0%{
+    transform: translateY(100px);
+    opacity: 0;
+  };
+  100%{
+    transform: translateY(-100px);
+    opacity: 1;
+  }
+}
+
 .info-card {
+  animation: info-card-load 1s forwards;
+  opacity: 0;
   border-radius: $border-max;
   background-color: $white;
   box-shadow: 0 0 30px 0 rgba(0, 0, 0, 0.2);

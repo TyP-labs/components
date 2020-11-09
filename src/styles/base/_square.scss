@@ -1,6 +1,8 @@
 @import '../variables';
 
 .square {
+  opacity: 0;
+  animation: info-card-load   1s 200ms forwards;
   border-radius: $border-max;
   background-color: $affirmative-color;
   box-shadow: 0 0 30px 0 #10e5b37f;

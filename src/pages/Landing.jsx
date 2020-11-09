@@ -124,7 +124,7 @@ const Landing = () => {
                 Potenciá la educación del futuro.
               </h3>
               <h1 className="text__h1--white">
-                Gestiona tu comunidad educativa y los canales de comunicación.
+                Crea y Gestiona tu comunidad educativa como nunca antes.
               </h1>
             </div>
 
