@@ -13,7 +13,7 @@
 $principal-font: 'Roboto';
 $secondary-font: sans-serif;
 @mixin font-family {
-    font-family: $principal-font, $secondary-font;
+  font-family: $principal-font, $secondary-font;
 }
 
 //primary colors

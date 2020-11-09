@@ -1,8 +1,8 @@
 @import '../variables';
 
-@mixin text ($font-size, $color) {
+@mixin text($font-size, $color) {
   font-size: $font-size;
-  color:  $color;
+  color: $color;
   margin: 0;
   padding: 0;
   cursor: default;
@@ -10,69 +10,69 @@
 }
 
 .text__h1 {
-  @include text($text-huge,$black)
+  @include text($text-huge, $black);
 }
 
 .text__h1--white {
-  @include text($text-huge,$white)
+  @include text($text-huge, $white);
 }
 
 .text__h2--black {
-  @include text($text-big,$black)
+  @include text($text-big, $black);
 }
 
 .text__h2--white {
-  @include text($text-big,$white)
+  @include text($text-big, $white);
 }
 
 .text__h2 {
-  @include text($text-big,$dark-gray-color)
+  @include text($text-big, $dark-gray-color);
 }
 
 .text__h3--black {
-  @include text($text-mid,$dark-gray-color)
+  @include text($text-mid, $dark-gray-color);
 }
 
 .text__h3--white {
-  @include text($text-mid,$white)
+  @include text($text-mid, $white);
 }
 
 .text__h3 {
-  @include text($text-mid,$light-gray-color)
+  @include text($text-mid, $light-gray-color);
 }
 
 .text__h6--black {
-  @include text($text-min,$dark-gray-color)
+  @include text($text-min, $dark-gray-color);
 }
 
 .text__h6--white {
-  @include text($text-min,$white)
+  @include text($text-min, $white);
 }
 
 .text__h6 {
-  @include text($text-min,$light-gray-color)
+  @include text($text-min, $light-gray-color);
 }
 
 .text__p {
-  @include text($text-p,$dark-gray-color)
+  @include text($text-p, $dark-gray-color);
 }
 
 .text__p--black {
-  @include text($text-p,$black)
+  @include text($text-p, $black);
 }
 
 .text__p--white {
-  @include text($text-p,$white)
+  @include text($text-p, $white);
 }
 
 .text__span {
-  @include text($text-p, $dark-gray-color)
+  @include text($text-p, $dark-gray-color);
 }
 
 .text__span--black {
-  @include text($text-p,$black)
+  @include text($text-p, $black);
 }
 
 .text__span--white {
-  @include text($text-p,$white)
+  @include text($text-p, $white);
 }

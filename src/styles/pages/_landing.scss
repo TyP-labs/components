@@ -1,70 +1,73 @@
 @import '../variables';
 @import '../components/infoCard';
+@import '../base/square';
 
-.landing{
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-start;
-    align-items: center;
+.landing {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
 }
 
-.landing__container{
-    width: 100%;
-    background-image: url('../assets/background.svg');
-    background-repeat: no-repeat;
-    background-size: cover;
-    height: 1080px;
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-start;
-    align-items: center;
+.landing__container {
+  width: 100%;
+  background-image: url('../assets/background.svg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 1080px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
 }
 
-.landing__header{
-    width: 100%;
-    max-width: $max-width;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    margin: 50px 0 0 0;
-    
+.landing__header {
+  width: 100%;
+  max-width: $max-width;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 50px 0 0 0;
 }
 
-.landing__header-text{
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    align-items: flex-start;
+.landing__header-text {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: flex-start;
 }
 
-.landing__header-text--size{
-    width: 750px;
-    height: max-content;
-    padding: 20px 0;
+.landing__header-text--size {
+  width: 750px;
+  height: max-content;
+  padding: 20px 0;
 }
 
-.landing__header-img{
-    width: 600px;
-    height: 600px;
+.landing__header-img {
+  width: 600px;
+  height: 600px;
 }
 
-.landing__header-text-buttons{
-    width: 420px;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
+.landing__header-text-buttons {
+  width: 420px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 
-.landing__header-text-buttons div{
-    width: 200px;
+.landing__header-text-buttons div {
+  width: 200px;
 }
 
-.landing__container-cards{
-    width: 100%;
-    max-width: 1400px;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    margin: 70px 0 0 0;
-    
+.landing__container-cards {
+  width: 100%;
+  max-width: 1400px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 150px 0 0 0;
+}
+
+.landing__container-cards--up {
+  transform: translateY(-70px);
 }
