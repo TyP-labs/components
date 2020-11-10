@@ -135,7 +135,7 @@ const Landing = () => {
       <div className="landing__section--gray">
         <div className="landing__section--gray-text">
           <FloatingCard
-            name="Joaquín Perez"
+            name="Joaquín P"
             division="2A - TM"
             imgCenter={Square5}
             leftText="Familiares"
