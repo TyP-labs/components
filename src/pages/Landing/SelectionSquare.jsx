@@ -10,8 +10,10 @@ const SelectionSquare = (props) => {
 
   return (
     <div className="selection-square">
-      <img src={img} className="selection-square__img" />
-      <h3 className="text__h3--white">{title}</h3>
+      <img src={img} className="selection-square__img" alt="icon" />
+      <h3 className="text__span--white" style={{ textAlign: 'center' }}>
+        {title}
+      </h3>
     </div>
   );
 };

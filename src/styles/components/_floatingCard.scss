@@ -48,11 +48,11 @@ $square: 300px;
 }
 
 .floating-card__cards__item--green {
-  @include cards($affirmative-color, #10e5b27f);
+  @include cards($affirmative-color, $affirmative-shadow);
 }
 
 .floating-card__cards__item--violet {
-  @include cards($principal-color, #683ce47f);
+  @include cards($principal-color, $principal-shadow);
 }
 
 .floating-card__cards__item--img {

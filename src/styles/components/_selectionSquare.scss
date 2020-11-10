@@ -1,0 +1,20 @@
+@import '../variables';
+
+.selection-square {
+  width: 120px;
+  height: 120px;
+  border-radius: $border-max;
+  background-color: $affirmative-color;
+  box-shadow: 0 0 30px 0 $affirmative-shadow;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+}
+
+.selection-square__img {
+  width: 50px;
+  height: 50px;
+  margin-bottom: 10px;
+}

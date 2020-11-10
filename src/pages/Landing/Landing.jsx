@@ -19,6 +19,11 @@ import Square7 from '../../assets/icons8-reminder-96.png';
 import InfoCard from './InfoCard';
 import FloatingCard from './FloatingCard';
 import Square from './Square';
+import SelectionSquare from './SelectionSquare';
+
+import SL1 from '../../assets/icons8-database-view-96.png';
+import SL2 from '../../assets/icons8-design-96.png';
+import SL3 from '../../assets/icons8-money-box-96.png';
 
 const Landing = () => {
   const history = useHistory();
@@ -39,10 +44,10 @@ const Landing = () => {
           <div className="landing__header-text">
             <div className="landing__header-text--size">
               <h3 className="text__h3--white" style={{ margin: '0 0 10px 0' }}>
-                Potenciá la educación del futuro.
+                Potenciamos la educación del futuro.
               </h3>
               <h1 className="text__h1--white">
-                Crea y Gestiona tu comunidad educativa como nunca antes.
+                Gestiona tu comunidad educativa de la forma mejor manera.
               </h1>
             </div>
 
@@ -169,19 +174,34 @@ const Landing = () => {
         </div>
       </div>
 
-      <div className="landing__section" style={{ margin: '100px 0' }}>
-        <div className="landing__section-text">
-          <h3 className="text__h3--black">
-            Servicios de última tecnología al menor costo
-          </h3>
-          <h2 className="text__h1" style={{ fontWeight: 'bolder' }}>
-            Por qué elegirnos para tu comunidad?
-          </h2>
-        </div>
-      </div>
-
       <div className="landing__selection">
-        <div className="landing__selection-items"></div>
+        <div className="landing__selection-container">
+          <div className="landing__section-text">
+            <h3 className="text__h3--black">
+              Servicios de última tecnología al menor costo
+            </h3>
+            <h2 className="text__h1" style={{ fontWeight: 'bolder' }}>
+              Por qué elegirnos para tu comunidad?
+            </h2>
+          </div>
+
+          <div className="landing__selection-items">
+            <SelectionSquare title="Servicios Operativos 24/7" img={SL1} />
+            <SelectionSquare
+              title="Servicios de mensajería 24/7"
+              img={Square4}
+            />
+            <SelectionSquare title="Simplicidad y Diseño" img={SL2} />
+            <SelectionSquare
+              title="Seguridad y Protección de datos"
+              img={Square2}
+            />
+            <SelectionSquare
+              title="Servicios económicos y de alta calidad"
+              img={SL3}
+            />
+          </div>
+        </div>
       </div>
 
       <div className="landing__section" style={{ margin: '100px 0' }}>

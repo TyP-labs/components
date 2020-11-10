@@ -2,6 +2,7 @@
 @import '../components/infoCard';
 @import '../base/square';
 @import '../components/floatingCard';
+@import '../components/selectionSquare';
 
 .landing {
   display: flex;
@@ -226,7 +227,7 @@
 }
 
 .landing__section--gray-text-pyramid-row2 div {
-  @include pyramid-item($principal-color, #683ce47f);
+  @include pyramid-item($principal-color, $principal-shadow);
   animation: pyramid 4s 500ms alternate-reverse infinite;
 }
 
@@ -235,10 +236,39 @@
 }
 
 .landing__section--gray-text-pyramid-row3 div {
-  @include pyramid-item($affirmative-color, #10e5b27f);
+  @include pyramid-item($affirmative-color, $affirmative-shadow);
   animation: pyramid 4s 1000ms alternate-reverse infinite;
 }
 
 .landing__section--gray-text-pyramid-row3 div:hover {
   background-color: #00af86;
+}
+
+.landing__selection {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 150px 0 50px 0;
+}
+
+.landing__selection-container {
+  width: 100%;
+  max-width: 1400px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  padding: 50px 0;
+  background-color: #f0f0f0;
+  border-radius: $border-max;
+}
+
+.landing__selection-items {
+  width: 100%;
+  max-width: 1400px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin: 50px 0 0 0;
 }
