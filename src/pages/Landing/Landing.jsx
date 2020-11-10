@@ -204,33 +204,33 @@ const Landing = () => {
           </div>
 
           <div className="landing__selection-screen-view">
-            <ScreenView/>
+            <ScreenView />
             <div className="landing__section--gray-text-items">
-            <h2 className="text__h2" style={{ fontWeight: 'bolder' }}>
-            Bienvenidos al mejor entorno de trabajo.
-            </h2>
-            <p className="text__h6">
-            Brinda a estudiantes, padres, profesores y administradores un entorno 
-            de trabajo de última generación adaptado a sus necesidades. 
-            Sin vueltas ni comlicaciones.
-            </p>
-            <div className="landing__header-text-buttons">
-              <div>
-                <Button
-                  value="Empezar Ahora"
-                  handleClick={url.bind(this, '/crear-cuenta')}
-                  isPrincipal={true}
-                />
-              </div>
-              <div>
-                <Button
-                  value="Saber más"
-                  handleClick={url.bind(this, '/crear-cuenta')}
-                  isPrincipal={false}
-                />
+              <h2 className="text__h2" style={{ fontWeight: 'bolder' }}>
+                Bienvenidos al mejor entorno de trabajo.
+              </h2>
+              <p className="text__h6">
+                Brinda a estudiantes, padres, profesores y administradores un
+                entorno de trabajo de última generación adaptado a sus
+                necesidades. Sin vueltas ni complicaciones.
+              </p>
+              <div className="landing__header-text-buttons">
+                <div>
+                  <Button
+                    value="Empezar Ahora"
+                    handleClick={url.bind(this, '/crear-cuenta')}
+                    isPrincipal={true}
+                  />
+                </div>
+                <div>
+                  <Button
+                    value="Saber más"
+                    handleClick={url.bind(this, '/crear-cuenta')}
+                    isPrincipal={false}
+                  />
+                </div>
               </div>
             </div>
-          </div>
           </div>
         </div>
       </div>
@@ -263,7 +263,7 @@ const Landing = () => {
               Distribuye la responsabilidad entre varios administrativos para
               encargarse del manejo del flujo de datos de toda la comunidad,
               permitéles crear notificaciones, divisiones, clases y modificar la
-              estructura de la comunidad.
+              estructura de la misma.
             </p>
             <div className="landing__header-text-buttons">
               <div>

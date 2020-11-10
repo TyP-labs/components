@@ -172,7 +172,7 @@
   width: 100%;
   max-width: 1400px;
   display: flex;
-  justify-content: center;
+  justify-content: space-around;
   align-items: center;
 }
 
@@ -261,8 +261,6 @@
   justify-content: flex-start;
   align-items: center;
   padding: 50px 0;
-  background-color: #f0f0f0;
-  border-radius: $border-max;
 }
 
 .landing__selection-items {
