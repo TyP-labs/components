@@ -168,6 +168,16 @@
   align-items: center;
 }
 
+.landing__section--white{
+  width: 100%;
+  padding: 70px 0;
+  background-color:$white;
+  height: max-content;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
 .landing__section--gray-text {
   width: 100%;
   max-width: 1400px;

@@ -25,6 +25,7 @@ import SL1 from '../../assets/icons8-database-view-96.png';
 import SL2 from '../../assets/icons8-design-96.png';
 import SL3 from '../../assets/icons8-money-box-96.png';
 import ScreenView from './ScreenView';
+import Footer from '../../components/Footer';
 
 const Landing = () => {
   const history = useHistory();
@@ -114,7 +115,7 @@ const Landing = () => {
         </div>
       </div>
 
-      <div className="landing__section">
+      <div className="landing__section--white" style={{margin: '300px 0 0 0'}}>
         <div className="landing__section-text">
           <h3 className="text__h3--black">
             Servicios de última tecnología al menor costo
@@ -235,7 +236,7 @@ const Landing = () => {
         </div>
       </div>
 
-      <div className="landing__section" style={{ margin: '100px 0' }}>
+      <div className="landing__section--white" style={{ margin: '100px 0 0 0' }}>
         <div className="landing__section-text">
           <h3 className="text__h3--black">
             Servicios de última tecnología al menor costo
@@ -247,7 +248,7 @@ const Landing = () => {
             <p className="text__h3">
               No importa que tan grande o pequeña sea tu comunidad, nosotros nos
               adaptamos a cualquier espacio. Distribuye divisiones, profesores y
-              estudiantes, y crea clases puntuales para cada área.
+              estudiantes y crea clases puntuales para cada área.
             </p>
           </div>
         </div>
@@ -301,6 +302,7 @@ const Landing = () => {
           </div>
         </div>
       </div>
+      <Footer list={['Sobre Nosotros','Términos y Condiciones', 'Políticas de Privacidad', 'Crear Comunidad', 'Iniciar Sesión']}/>
     </div>
   );
 };
