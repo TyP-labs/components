@@ -211,7 +211,7 @@ const Landing = () => {
             </h2>
             <p className="text__h6">
             Brinda a estudiantes, padres, profesores y administradores un entorno 
-            de trabajo de última generación y adaptado a sus necesidades. 
+            de trabajo de última generación adaptado a sus necesidades. 
             Sin vueltas ni comlicaciones.
             </p>
             <div className="landing__header-text-buttons">
