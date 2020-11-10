@@ -1,4 +1,4 @@
-import React, { useEffect } from 'react';
+import React, { useCallback, useEffect } from 'react';
 import { useHistory } from 'react-router';
 import Button from '../../base/Button';
 import Teacher from '../../assets/Teaching-amico.svg';
@@ -24,13 +24,14 @@ import SelectionSquare from './SelectionSquare';
 import SL1 from '../../assets/icons8-database-view-96.png';
 import SL2 from '../../assets/icons8-design-96.png';
 import SL3 from '../../assets/icons8-money-box-96.png';
+import ScreenView from './ScreenView';
 
 const Landing = () => {
   const history = useHistory();
 
-  const url = (path) => {
+  const url = useCallback((path) => {
     history.push(path);
-  };
+  });
 
   useEffect(() => {
     window.scrollTo(0, 0);
@@ -200,6 +201,36 @@ const Landing = () => {
               title="Servicios económicos y de alta calidad"
               img={SL3}
             />
+          </div>
+
+          <div className="landing__selection-screen-view">
+            <ScreenView/>
+            <div className="landing__section--gray-text-items">
+            <h2 className="text__h2" style={{ fontWeight: 'bolder' }}>
+            Bienvenidos al mejor entorno de trabajo.
+            </h2>
+            <p className="text__h6">
+            Brinda a estudiantes, padres, profesores y administradores un entorno 
+            de trabajo de última generación y adaptado a sus necesidades. 
+            Sin vueltas ni comlicaciones.
+            </p>
+            <div className="landing__header-text-buttons">
+              <div>
+                <Button
+                  value="Empezar Ahora"
+                  handleClick={url.bind(this, '/crear-cuenta')}
+                  isPrincipal={true}
+                />
+              </div>
+              <div>
+                <Button
+                  value="Saber más"
+                  handleClick={url.bind(this, '/crear-cuenta')}
+                  isPrincipal={false}
+                />
+              </div>
+            </div>
+          </div>
           </div>
         </div>
       </div>

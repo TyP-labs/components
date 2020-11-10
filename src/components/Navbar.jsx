@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React, { useCallback, useState } from 'react';
 import PropTypes from 'prop-types';
 import Linker from '../base/Linker';
 import { useHistory } from 'react-router';
@@ -19,7 +19,7 @@ const Navbar = (props) => {
     isWhite: style,
   };
 
-  const changeStyle = () => {
+  const changeStyle = useCallback(() => {
     if (window.scrollY >= 70) {
       setStyle(false);
       properties.isWhite = true;
@@ -27,7 +27,7 @@ const Navbar = (props) => {
       setStyle(true);
       properties.isWhite = false;
     }
-  };
+  });
 
   window.addEventListener('scroll', changeStyle);
 
