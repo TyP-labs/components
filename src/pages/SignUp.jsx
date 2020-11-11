@@ -3,10 +3,9 @@ import Selector from '../base/Selector';
 import Navbar from '../components/Navbar';
 
 const SignUp = () => {
-
-  useEffect(()=>{
-    window.scrollTo(0,0)
-  }, [])
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, []);
 
   return (
     <div className="sign-up">

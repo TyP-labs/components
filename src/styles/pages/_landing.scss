@@ -85,7 +85,6 @@
   align-items: center;
 }
 
-
 .landing__squares-item1 {
   transform: translateY(-560px) translateX(-40px);
   animation: square1 3s alternate infinite;
@@ -135,10 +134,10 @@
   align-items: center;
 }
 
-.landing__section--white{
+.landing__section--white {
   width: 100%;
   padding: 70px 0;
-  background-color:$white;
+  background-color: $white;
   height: max-content;
   display: flex;
   justify-content: center;

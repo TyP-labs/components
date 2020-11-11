@@ -11,7 +11,15 @@ const Router = () => {
         <Route exact path="/" component={Landing} />
         <Route exact path="/crear-cuenta" component={SignUp} />
       </Switch>
-      <Footer list={['Términos y Condiciones', 'Políticas de Privacidad','Sobre Nosotros', 'Precios', 'Servicios']}/>
+      <Footer
+        list={[
+          'Términos y Condiciones',
+          'Políticas de Privacidad',
+          'Sobre Nosotros',
+          'Precios',
+          'Servicios',
+        ]}
+      />
     </BrowserRouter>
   );
 };

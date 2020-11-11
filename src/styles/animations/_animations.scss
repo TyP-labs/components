@@ -1,40 +1,39 @@
 @keyframes square1 {
-    0% {
-      transform: translateY(-560px) translateX(-40px);
-    }
-    100% {
-      transform: translateY(-580px) translateX(-50px);
-    }
+  0% {
+    transform: translateY(-560px) translateX(-40px);
   }
-  
-  @keyframes square2 {
-    0% {
-      transform: translateY(-300px) translateX(15px);
-    }
-    100% {
-      transform: translateY(-320px) translateX(25px);
-    }
+  100% {
+    transform: translateY(-580px) translateX(-50px);
   }
-  
-  @keyframes square3 {
-    0% {
-      transform: translateY(-510px) translateX(-15px);
-    }
-    100% {
-      transform: translateY(-530px) translateX(-25px);
-    }
-  }
-  
-  @keyframes square4 {
-    0% {
-      transform: translateY(-460px) translateX(40px);
-    }
-    100% {
-      transform: translateY(-480px) translateX(60px);
-    }
-  }
+}
 
-  
+@keyframes square2 {
+  0% {
+    transform: translateY(-300px) translateX(15px);
+  }
+  100% {
+    transform: translateY(-320px) translateX(25px);
+  }
+}
+
+@keyframes square3 {
+  0% {
+    transform: translateY(-510px) translateX(-15px);
+  }
+  100% {
+    transform: translateY(-530px) translateX(-25px);
+  }
+}
+
+@keyframes square4 {
+  0% {
+    transform: translateY(-460px) translateX(40px);
+  }
+  100% {
+    transform: translateY(-480px) translateX(60px);
+  }
+}
+
 @keyframes pyramid {
   0% {
     transform: translateY(-50px);
@@ -43,7 +42,6 @@
     transform: translateY(50px);
   }
 }
-
 
 @keyframes floating-cards {
   0% {
@@ -62,7 +60,6 @@
     transform: translateY(-380px) translateX(10px);
   }
 }
-
 
 @keyframes floating-cards-square1 {
   0% {

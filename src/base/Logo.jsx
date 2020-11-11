@@ -17,9 +17,12 @@ const Logo = (props) => {
   };
 
   return (
-    <div className="logo" onClick={handleClick} style={{cursor:'pointer'}}>
-      <img {...properties} alt="Kritt Logo" style={{cursor:'pointer'}} />
-      <h3 className={isWhite ? 'text__h3--white' : 'text__h3--black'} style={{cursor:'pointer'}}>
+    <div className="logo" onClick={handleClick} style={{ cursor: 'pointer' }}>
+      <img {...properties} alt="Kritt Logo" style={{ cursor: 'pointer' }} />
+      <h3
+        className={isWhite ? 'text__h3--white' : 'text__h3--black'}
+        style={{ cursor: 'pointer' }}
+      >
         Kritt.
       </h3>
     </div>

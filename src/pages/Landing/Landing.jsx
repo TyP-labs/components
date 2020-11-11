@@ -146,9 +146,11 @@ const Landing = () => {
           </div>
         </div>
       </div>
-      
 
-      <div className="landing__section--white" style={{margin: '300px 0 0 0'}}>
+      <div
+        className="landing__section--white"
+        style={{ margin: '300px 0 0 0' }}
+      >
         <div className="landing__section-text">
           <h3 className="text__h3--black">
             Servicios de última tecnología al menor costo
@@ -269,7 +271,10 @@ const Landing = () => {
         </div>
       </div>
 
-      <div className="landing__section--white" style={{ margin: '100px 0 0 0' }}>
+      <div
+        className="landing__section--white"
+        style={{ margin: '100px 0 0 0' }}
+      >
         <div className="landing__section-text">
           <h3 className="text__h3--black">
             Servicios de última tecnología al menor costo
