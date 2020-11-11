@@ -4,6 +4,8 @@
 @import '../components/floatingCard';
 @import '../components/selectionSquare';
 @import '../components/screenView';
+@import '../animations/_animations.scss';
+@import '../responsive/landing-responsive';
 
 .landing {
   display: flex;
@@ -25,7 +27,7 @@
 }
 
 .landing__header {
-  width: 100%;
+  width: 95%;
   max-width: $max-width;
   display: flex;
   justify-content: space-between;
@@ -63,7 +65,7 @@
 }
 
 .landing__container-cards {
-  width: 100%;
+  width: 95%;
   max-width: 1400px;
   display: flex;
   justify-content: space-between;
@@ -77,47 +79,12 @@
 
 .landing__squares {
   display: flex;
-  width: 100%;
+  width: 95%;
   max-width: 1400px;
   justify-content: space-between;
   align-items: center;
 }
 
-@keyframes square1 {
-  0% {
-    transform: translateY(-560px) translateX(-40px);
-  }
-  100% {
-    transform: translateY(-580px) translateX(-50px);
-  }
-}
-
-@keyframes square2 {
-  0% {
-    transform: translateY(-300px) translateX(15px);
-  }
-  100% {
-    transform: translateY(-320px) translateX(25px);
-  }
-}
-
-@keyframes square3 {
-  0% {
-    transform: translateY(-510px) translateX(-15px);
-  }
-  100% {
-    transform: translateY(-530px) translateX(-25px);
-  }
-}
-
-@keyframes square4 {
-  0% {
-    transform: translateY(-460px) translateX(40px);
-  }
-  100% {
-    transform: translateY(-480px) translateX(60px);
-  }
-}
 
 .landing__squares-item1 {
   transform: translateY(-560px) translateX(-40px);
@@ -144,7 +111,7 @@
 }
 
 .landing__section-text {
-  width: 100%;
+  width: 95%;
   max-width: 1400px;
   display: flex;
   flex-direction: column;
@@ -179,7 +146,7 @@
 }
 
 .landing__section--gray-text {
-  width: 100%;
+  width: 95%;
   max-width: 1400px;
   display: flex;
   justify-content: space-around;
@@ -219,15 +186,6 @@
   transition: all 300ms;
 }
 
-@keyframes pyramid {
-  0% {
-    transform: translateY(-50px);
-  }
-  100% {
-    transform: translateY(50px);
-  }
-}
-
 .landing__section--gray-text-pyramid-row1 div {
   @include pyramid-item($white, #00000010);
   animation: pyramid 4s alternate-reverse infinite;
@@ -256,7 +214,7 @@
 }
 
 .landing__selection {
-  width: 100%;
+  width: 95%;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -264,7 +222,7 @@
 }
 
 .landing__selection-container {
-  width: 100%;
+  width: 95%;
   max-width: 1400px;
   display: flex;
   flex-direction: column;
@@ -274,7 +232,7 @@
 }
 
 .landing__selection-items {
-  width: 100%;
+  width: 95%;
   max-width: 1400px;
   display: flex;
   justify-content: space-around;

@@ -1,0 +1,32 @@
+@import "../variables";
+
+@media screen and (min-width: 320px) and (max-width: 480px){
+    .landing__header{
+        display: flex;
+        flex-direction: column;
+    }
+    .landing__header-text--size{
+        width: 400px ;
+    }
+    .text__h1--white{
+        font-size: $text-big;
+    }
+    .text__h3--white{
+        font-size: $text-min;
+    }
+    .landing__header-img{
+        height: 150px;
+        align-items: center;
+    }
+    .landing__container-cards{
+        display: flex;
+        flex-direction: column;
+    }
+    .info-card{
+        margin-bottom: 100px;
+    }
+    .landing__section--gray{
+        display: flex;
+        flex-direction: column;
+    }
+}

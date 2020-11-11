@@ -112,8 +112,41 @@ const Landing = () => {
           <div className="landing__squares-item4">
             <Square img={Square4} alt="icon" />
           </div>
+
+          <div className="landing__squares-item1--1450">
+            <Square img={Square1} alt="icon" />
+          </div>
+
+          <div className="landing__squares-item2--1450">
+            <Square img={Square2} alt="icon" />
+          </div>
+
+          <div className="landing__squares-item3--1450">
+            <Square img={Square3} alt="icon" />
+          </div>
+
+          <div className="landing__squares-item4--1450">
+            <Square img={Square4} alt="icon" />
+          </div>
+
+          <div className="landing__squares-item1--1366">
+            <Square img={Square1} alt="icon" />
+          </div>
+
+          <div className="landing__squares-item2--1366">
+            <Square img={Square2} alt="icon" />
+          </div>
+
+          <div className="landing__squares-item3--1366">
+            <Square img={Square3} alt="icon" />
+          </div>
+
+          <div className="landing__squares-item4--1366">
+            <Square img={Square4} alt="icon" />
+          </div>
         </div>
       </div>
+      
 
       <div className="landing__section--white" style={{margin: '300px 0 0 0'}}>
         <div className="landing__section-text">
