@@ -1,0 +1,28 @@
+@import '../variables';
+
+.sign-up {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  flex-direction: column;
+}
+
+.sign-up__container {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  width: 800px;
+  flex-direction: column;
+}
+
+.container__text {
+}
+
+.sign-up__selector {
+  margin: 50px 0 0 0;
+  width: 100%;
+  height: 330px;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+}

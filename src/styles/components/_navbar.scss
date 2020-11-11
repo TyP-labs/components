@@ -12,7 +12,7 @@
 }
 
 .navbar {
-  @include navbar($white);
+  @include navbar($transparent);
 }
 
 .navbar--scroll {

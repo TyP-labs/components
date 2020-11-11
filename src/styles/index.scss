@@ -23,7 +23,8 @@
 @import './base/stateBar';
 @import './components/footer';
 @import './pages/landing';
-@import "./responsive/responsive";
+@import './responsive/responsive';
+@import './pages/SignUp';
 
 body {
   @include font-family;
