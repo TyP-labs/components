@@ -9,7 +9,7 @@ import LogoViolet from '../assets/logo-icon.png';
  * @return App Logo
  */
 const Logo = (props) => {
-  const { isWhite } = props;
+  const { isWhite, handleClick } = props;
 
   const properties = {
     src: isWhite ? LogoWhite : LogoViolet,
@@ -17,9 +17,9 @@ const Logo = (props) => {
   };
 
   return (
-    <div className="logo">
-      <img {...properties} alt="Kritt Logo" />
-      <h3 className={isWhite ? 'text__h3--white' : 'text__h3--black'}>
+    <div className="logo" onClick={handleClick} style={{cursor:'pointer'}}>
+      <img {...properties} alt="Kritt Logo" style={{cursor:'pointer'}} />
+      <h3 className={isWhite ? 'text__h3--white' : 'text__h3--black'} style={{cursor:'pointer'}}>
         Kritt.
       </h3>
     </div>

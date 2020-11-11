@@ -49,7 +49,7 @@ const Landing = () => {
                 Potenciamos la educación del futuro.
               </h3>
               <h1 className="text__h1--white">
-                Gestiona tu comunidad educativa de la forma mejor manera.
+                Gestiona tu comunidad educativa de la mejor manera.
               </h1>
             </div>
 
@@ -335,7 +335,6 @@ const Landing = () => {
           </div>
         </div>
       </div>
-      <Footer list={['Sobre Nosotros','Términos y Condiciones', 'Políticas de Privacidad', 'Crear Comunidad', 'Iniciar Sesión']}/>
     </div>
   );
 };

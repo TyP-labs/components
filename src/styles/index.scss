@@ -23,6 +23,7 @@
 @import './base/stateBar';
 @import './components/footer';
 @import './pages/landing';
+@import './pages/SignUp';
 
 body {
   @include font-family;
@@ -30,6 +31,7 @@ body {
   margin: 0;
   padding: 0;
   transition: all 300ms;
+  zoom: 0.9;
 }
 
 html {

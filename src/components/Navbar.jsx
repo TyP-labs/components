@@ -11,7 +11,7 @@ import Button from '../base/Button';
  * @return Navbar
  */
 const Navbar = (props) => {
-  const { isWhite } = props;
+  const { isWhite, isSignUp } = props;
   const history = useHistory();
   let [style, setStyle] = useState(isWhite);
 
@@ -37,6 +37,33 @@ const Navbar = (props) => {
     const uri = value.toLowerCase().replace(/ó/, 'o').split(' ').join('-');
     history.push(uri);
   };
+
+  if (isSignUp) {
+    const linkers = [
+      'Sobre Nosotros',
+      'Servicios',
+      'Precios',
+      'Iniciar Sesion',
+    ];
+    return (
+      <div className="navbar">
+        <div className="navbar__container">
+          <Logo handleClick={handleClick.bind(this, '')} />
+          <div className="navbar__linkers">
+            {linkers.map((value, key) => {
+              const args = {
+                key: key,
+                value: value,
+                handleClick: handleClick.bind(this, value),
+              };
+
+              return <Linker {...args} />;
+            })}
+          </div>
+        </div>
+      </div>
+    );
+  }
 
   return (
     <div

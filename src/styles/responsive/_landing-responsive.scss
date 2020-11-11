@@ -83,8 +83,26 @@
     .landing__header-text{
         width: 650px;
     }
+
+    .landing__header-text--size{
+        width: 650px;
+    }
     .landing__header-text--size h1{
         font-size: 50px;
+        width: 650px;
+        margin: 0;
+    }
+
+    .landing__header-text--size h3{
+        width: 650px;
+    }
+
+    .landing__header-img{
+        width: 650px;
+        height: 650px;
+    }
+
+    .landing__header-text--size{
         width: 650px;
     }
 
@@ -169,10 +187,22 @@
             transform: translateZ(30px) translateY(-100px);
         }
 
-        @media screen and (max-width: 768px){
+        .info-card{
+            width: 240px;
+            height: 400px;
+        }
 
-            @media screen and (max-width: 300px){
-    
+        .landing__selection-screen-view{
+            margin: 70px 0 0 0;
+        }
+
+        @media screen and (max-width: 1024px){
+
+            @media screen and (max-width: 768px){
+
+                @media screen and (max-width: 300px){
+        
+                }
             }
         }
     }
