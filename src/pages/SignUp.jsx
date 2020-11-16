@@ -21,7 +21,7 @@ const SignUp = () => {
         <div className="sign-up__selector">
           <Selector value="Soy Estudiante" />
           <Selector value="Soy Padre" />
-          <Selector value="Soy Profesor" />
+          <Selector value="Soy Profesor" handleClick />
         </div>
       </div>
     </div>
