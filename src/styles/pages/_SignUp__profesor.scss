@@ -1,31 +1,31 @@
-@import "../variables";
+@import '../variables';
 
-.signup__profesor{
-    display: flex;
-    justify-content: flex-start;
-    align-items: center;
-    flex-direction: column;
-    height: 100vh;
+.signup__profesor {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  flex-direction: column;
+  height: 100vh;
 }
 
-.signup-selector_card{
-    width: 400px;
-    height: 500px;
+.signup-selector_card {
+  width: 400px;
+  height: 500px;
 }
 
-.container-selector_card{
-    width: 900px;
-    padding: 150px 0;
+.container-selector_card {
+  width: 900px;
+  padding: 150px 0;
   display: flex;
   justify-content: space-between;
   align-items: flex-start;
 }
 
-.signup-type{
-    width: 100%;
-    height: 150px;
-    color: $principal-color;
-    font-size:$text-mid;
-    text-align: center;
-    background-color:$affirmative-color;
+.signup-type {
+  width: 100%;
+  height: 150px;
+  color: $principal-color;
+  font-size: $text-mid;
+  text-align: center;
+  background-color: $affirmative-color;
 }
