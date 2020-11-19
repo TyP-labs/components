@@ -1,6 +1,6 @@
 import React from 'react';
-import Navbar from '../components/Navbar';
-import InfoCard from './Landing/InfoCard';
+import Navbar from '../../components/Navbar';
+import InfoCard from '../Landing/InfoCard';
 
 const SignUp__Profesor = () => {
   return (

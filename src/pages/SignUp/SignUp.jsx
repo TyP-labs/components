@@ -1,6 +1,6 @@
 import React, { useEffect } from 'react';
-import Selector from '../base/Selector';
-import Navbar from '../components/Navbar';
+import Selector from '../../base/Selector';
+import Navbar from '../../components/Navbar';
 
 const SignUp = () => {
   useEffect(() => {
