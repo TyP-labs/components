@@ -148,7 +148,7 @@ const Landing = () => {
       </div>
 
       <div
-        className="landing__section--white"
+        className="landing__section--gray"
         style={{ margin: '300px 0 0 0' }}
       >
         <div className="landing__section-text">

@@ -1,4 +1,5 @@
-import React, { useEffect } from 'react';
+import React, { useCallback, useEffect } from 'react';
+import { useHistory } from 'react-router';
 import Selector from '../../base/Selector';
 import Navbar from '../../components/Navbar';
 
@@ -6,6 +7,12 @@ const SignUp = () => {
   useEffect(() => {
     window.scrollTo(0, 0);
   }, []);
+
+  const history = useHistory()
+
+  const handleClick = useCallback(path => {
+    history.push(path)
+  })
 
   return (
     <div className="sign-up">
@@ -21,7 +28,7 @@ const SignUp = () => {
         <div className="sign-up__selector">
           <Selector value="Soy Estudiante" />
           <Selector value="Soy Padre" />
-          <Selector value="Soy Profesor" handleClick />
+          <Selector value="Soy Profesor" handleClick={handleClick.bind(this, '/crear-cuenta/profesor')}/>
         </div>
       </div>
     </div>
