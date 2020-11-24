@@ -5,7 +5,7 @@
   justify-content: flex-start;
   align-items: center;
   flex-direction: column;
-  height: 100vh;
+  height: max-content;
 }
 
 .signup-type {
@@ -24,7 +24,30 @@
 .container-selector__card{
   width: 95%;
   display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  margin: 20px 0 0 0;
+}
+
+.holder-selector__card{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: flex-start;
+  width: 700px;
+  margin: 50px 0 0 0;
+}
+
+.selector-card__container{
+  width: 220px;
+  display: flex;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
-  margin: 20px 0 0 0;
+  text-align: center;
+  margin: 50px;
+}
+
+.signup__profesor-state-bar{
+  margin: 100px 0 50px 0 ;
 }

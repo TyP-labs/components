@@ -10,7 +10,6 @@ const ScreenView = () => {
     setY((window.innerHeight / 2 - e.pageY) / 90);
   });
 
-
   window.addEventListener('mousemove', handleMove);
 
 

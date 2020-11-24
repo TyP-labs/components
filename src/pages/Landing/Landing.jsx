@@ -82,6 +82,7 @@ const Landing = () => {
             paragraph="Entiende de forma sencilla, donde tu comunidad presenta problemas, donde sobresale y que aspectos mejorar y utilízalos para potenciar tu forma de enseñar."
             img={Card1}
           />
+
           <div className="landing__container-cards--up">
             <InfoCard
               title="Mantén a tu comunidad onLine"
@@ -89,6 +90,15 @@ const Landing = () => {
               img={Card2}
             />
           </div>
+
+          <div className="landing__container-cards--up-a1024">
+            <InfoCard
+              title="Mantén a tu comunidad onLine"
+              paragraph="Trabaja en tiempo real y envía notificaciones en cualquier momento del día de forma ágil y sencilla."
+              img={Card2}
+            />
+          </div>
+
           <InfoCard
             title="Crea historiales únicos"
             paragraph="Sigue el desempeño académico de cada individuo, crea observaciones personalizadas y permite a su familia acceder a sus calificaciones"
@@ -97,6 +107,7 @@ const Landing = () => {
         </div>
 
         <div className="landing__squares">
+
           <div className="landing__squares-item1">
             <Square img={Square1} alt="icon" />
           </div>

@@ -75,6 +75,9 @@
 @media screen and (min-width: 1551px) {
   @include squares-1450();
   @include squares-1366();
+  .landing__container-cards--up-a1024{
+    display: none;
+  }
 }
 
 @media screen and (max-width: 1550px) {
@@ -107,8 +110,8 @@
   }
 
   .info-card {
-    width: 280px;
-    height: 420px;
+    width: 380px;
+    height: 480px;
   }
 
   .landing__squares {
@@ -155,6 +158,10 @@
     animation: square4--1450 3s alternate infinite;
   }
 
+  .landing__container-cards--up-a1024{
+    display: none;
+  }
+
   @media screen and (max-width: 1366px) {
     .screen-view {
       width: 450px;
@@ -186,15 +193,77 @@
     }
 
     .info-card {
-      width: 240px;
-      height: 400px;
+      width: 340px;
+      height: 480px;
     }
 
     .landing__selection-screen-view {
       margin: 70px 0 0 0;
     }
 
+    .landing__container-cards--up-a1024{
+      display: none;
+    }
+
+
     @media screen and (max-width: 1024px) {
+
+      .landing__container-cards{
+        display: none;
+      }
+
+      .landing__container-cards{
+        display: flex;
+        width: 100%;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin: none;
+        padding: 0;
+        transform: translateY(-150px);
+      }
+
+      .landing__container-cards--up-a1024{
+        display: flex;
+        justify-content: flex-start;
+        width: 100%;
+      }
+
+      .landing__container-cards--up{
+        display: none
+      }
+
+      .info-card{ 
+        width: 100%;
+        height: 200px;
+        margin: 20px 0;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 0;
+      }
+      
+
+      .info-card__container{
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-start;
+        width: 90%;
+        align-items: center;
+        margin: 0px;
+        padding: 0;
+      }
+
+      .info-card__container div{
+        margin-left: 20px;
+      }
+
+      .landing__squares{
+        transform: translateY(-350px);
+      }
+
+      
+
       @media screen and (max-width: 768px) {
         @media screen and (max-width: 300px) {
         }
