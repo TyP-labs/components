@@ -1,31 +1,54 @@
-@import "../variables";
+@import '../variables';
 
-.signup__profesor{
-    display: flex;
-    justify-content: flex-start;
-    align-items: center;
-    flex-direction: column;
-    height: 100vh;
+.signup__profesor {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  flex-direction: column;
+  height: max-content;
+  min-height: 100vh;
 }
 
-.signup-selector_card{
-    width: 400px;
-    height: 500px;
+.signup-type {
+  width: 100%;
+  height: 50px;
+  margin: 20px 0 0 0;
+  color: $principal-color;
+  font-size: $text-mid;
+  text-align: center;
+  background-color: $affirmative-color;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
-.container-selector_card{
-    width: 900px;
-    padding: 150px 0;
+.container-selector__card{
+  width: 95%;
   display: flex;
   justify-content: space-between;
   align-items: flex-start;
+  margin: 50px 0 0 0;
 }
 
-.signup-type{
-    width: 100%;
-    height: 150px;
-    color: $principal-color;
-    font-size:$text-mid;
-    text-align: center;
-    background-color:$affirmative-color;
+.holder-selector__card{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: flex-start;
+  width: 700px;
+  margin: 50px 0 0 0;
+}
+
+.selector-card__container{
+  width: 220px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  margin: 50px;
+}
+
+.signup__profesor-state-bar{
+  margin: 100px 0 50px 0 ;
 }

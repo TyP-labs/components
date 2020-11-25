@@ -12,6 +12,7 @@ const ScreenView = () => {
 
   window.addEventListener('mousemove', handleMove);
 
+
   return (
     <div
       className="screen-view"

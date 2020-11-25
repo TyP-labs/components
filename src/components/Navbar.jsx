@@ -33,10 +33,10 @@ const Navbar = (props) => {
 
   const linkers = ['Sobre Nosotros', 'Servicios', 'Precios', 'Iniciar Sesión'];
 
-  const handleClick = (value) => {
+  const handleClick = useCallback((value) => {
     const uri = value.toLowerCase().replace(/ó/, 'o').split(' ').join('-');
     history.push(uri);
-  };
+  });
 
   if (isSignUp) {
     const linkers = [

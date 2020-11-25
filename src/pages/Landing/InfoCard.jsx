@@ -13,10 +13,12 @@ const InfoCard = (props) => {
     <div className="info-card">
       <div className="info-card__container">
         <img src={img} alt="info card" />
-        <h3 className="text__h3--black">{title}</h3>
-        <p className="text__p--black" style={{ margin: '20px 0 0 0' }}>
-          {paragraph}
-        </p>
+        <div>
+          <h3 className="text__h3--black">{title}</h3>
+          <p className="text__p--black" style={{ margin: '20px 0 0 0' }}>
+            {paragraph}
+          </p>
+        </div>
       </div>
     </div>
   );
