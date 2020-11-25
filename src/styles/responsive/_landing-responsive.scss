@@ -262,6 +262,28 @@
         transform: translateY(-350px);
       }
 
+      .landing__selection-screen-view{
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+      }
+
+      .landing__section--gray-text{
+        flex-direction: column;
+        justify-content: space-between;
+      }
+
+      .floating-card{
+        margin: 0 0 50px 0;
+      }
+
+      .screen-view {
+        margin: 0 0 50px 0;
+      }
+
+      .landing__section--gray-text-pyramid{
+        margin: 50px 0 0 0;
+      }
       
 
       @media screen and (max-width: 768px) {

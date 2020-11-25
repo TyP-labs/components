@@ -34,15 +34,19 @@ const SignUp__Profesor = () => {
         <h3 className="text__h3">Selecciona una de las siguientes opciones.</h3>
         
         <div className="container-selector__card">
-            <SelectorCard
-            title="Crear nueva comunidad"
-            img={Community}
-            />
+            <Link to="/crear-cuenta/profesor/comunidad" style={{textDecoration: 'none'}}>
+              <SelectorCard
+              title="Crear nueva comunidad"
+              img={Community}
+              />
+            </Link>
 
-            <SelectorCard
-            title="Unirse a comunidad existente"
-            img={Join}
-            />
+            <Link to="/crear-cuenta/profesor/unirse" style={{textDecoration: 'none'}}>
+              <SelectorCard
+              title="Unirse a comunidad existente"
+              img={Join}
+              />
+            </Link>
 
         </div>
       </div>

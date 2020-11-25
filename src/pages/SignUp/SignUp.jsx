@@ -26,8 +26,8 @@ const SignUp = () => {
           </h2>
         </div>
         <div className="sign-up__selector">
-          <Selector value="Soy Estudiante" />
-          <Selector value="Soy Padre" />
+          <Selector value="Soy Estudiante" handleClick={handleClick.bind(this, '/crear-cuenta/estudiante')}/>
+          <Selector value="Soy Padre" handleClick={handleClick.bind(this, '/crear-cuenta/padre')} />
           <Selector value="Soy Profesor" handleClick={handleClick.bind(this, '/crear-cuenta/profesor')}/>
         </div>
       </div>
